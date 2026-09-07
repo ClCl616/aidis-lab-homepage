@@ -1,4 +1,4 @@
-name: Deploy static site to GitHub Pages
+name: GitHub Pages에 정적 사이트 배포
 
 on:
   push:
@@ -21,14 +21,14 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Check out source
+      - name: 소스 가져오기
         uses: actions/checkout@v4
-      - name: Configure Pages
+      - name: Pages 설정
         uses: actions/configure-pages@v5
-      - name: Upload site artifact
+      - name: 사이트 파일 업로드
         uses: actions/upload-pages-artifact@v3
         with:
           path: .
-      - name: Deploy to GitHub Pages
+      - name: GitHub Pages에 배포
         id: deployment
         uses: actions/deploy-pages@v4

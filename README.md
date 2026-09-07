@@ -1,45 +1,45 @@
-# AIDIS Lab Homepage
+# AIDIS Lab 홈페이지
 
-A lightweight, community-oriented homepage for AIDIS Lab. It is designed to document lab members by cohort, highlight individual projects and activities, and keep alumni connected through a shared home on the web.
+AIDIS Lab 구성원·프로젝트·동문 커뮤니티를 위한 가볍고 관리하기 쉬운 홈페이지입니다. 기수별 구성원을 기록하고, 각자의 프로젝트와 활동, 포트폴리오를 소개하며, 졸업 이후에도 이어지는 연결점이 되는 것을 목표로 합니다.
 
-## Goals
+## 목표
 
-- Introduce current and former members, organized by entry year/cohort.
-- Give every member a concise profile, project/activity summary, and portfolio link.
-- Preserve the lab's history while making alumni participation easy.
-- Keep maintenance simple: plain static files, no database or backend required to start.
+- 입학 연도·기수별로 재학생과 졸업생을 소개합니다.
+- 구성원마다 짧은 소개, 프로젝트·활동 요약, 포트폴리오 링크를 제공합니다.
+- 연구실의 기록을 보존하면서 동문이 계속 참여할 수 있게 합니다.
+- 처음에는 데이터베이스나 백엔드 없이 정적 파일만으로 간단히 운영합니다.
 
-## Information architecture
+## 정보 구조
 
 ```
-Home
-├── About the lab
-├── Members by cohort
-│   ├── Current members
-│   └── Alumni
-├── Projects & activities
-└── Community / contact
+홈
+├── 연구실 소개
+├── 기수별 구성원
+│   ├── 재학생
+│   └── 졸업생
+├── 프로젝트·활동
+└── 커뮤니티·연락처
 ```
 
-The initial site keeps these sections together on one page. As content grows, cohorts and projects can be split into individual pages while retaining the same navigation.
+초기에는 모든 내용을 한 페이지에 담습니다. 콘텐츠가 많아지면 기수와 프로젝트를 별도 페이지로 나누되, 현재의 메뉴 구조는 유지할 수 있습니다.
 
-## Local preview
+## 로컬에서 미리 보기
 
-Open `index.html` directly in a browser, or serve the folder with a local static server. No install or build step is required.
+`index.html`을 브라우저로 직접 열거나, 이 폴더를 정적 서버로 실행하세요. 별도의 설치나 빌드 과정은 필요하지 않습니다.
 
-## Updating content
+## 콘텐츠 수정하기
 
-- Edit member cards in `index.html` and replace the sample profiles.
-- Add project or activity cards in the Projects section.
-- Replace `hello@aidis-lab.example` and the social links with the lab's real contact channels.
-- Place photos and other static assets under `assets/` when they are added.
+- `index.html`의 구성원 카드를 실제 프로필로 교체합니다.
+- 프로젝트·활동 섹션에 새 카드를 추가합니다.
+- `hello@aidis-lab.example`과 소셜 링크를 연구실의 실제 연락 채널로 바꿉니다.
+- 사진과 기타 정적 파일은 `assets/` 폴더에 넣습니다.
 
-## Deployment direction
+## 배포
 
-GitHub Pages is the recommended first deployment: publish this repository from the `main` branch (root folder) under **Settings → Pages**. A custom domain can be connected later. If the site needs a CMS, authentication, or member submissions in the future, it can move to a hosted static-site platform without discarding the current content structure.
+GitHub Pages에서 `main` 브랜치의 루트 폴더를 배포하도록 설정되어 있습니다. 이후 사용자 지정 도메인을 연결할 수 있습니다. 향후 CMS, 인증, 구성원 제출 기능이 필요해지면 지금의 콘텐츠 구조를 유지한 채 정적 사이트 호스팅 서비스로 확장할 수 있습니다.
 
-## Repository conventions
+## 저장소 운영 원칙
 
-- Keep member information public only with each person's approval.
-- Prefer small, focused pull requests for content updates.
-- Do not commit access tokens, private contact information, or unpublished research material.
+- 구성원 정보는 당사자의 공개 동의를 받은 내용만 올립니다.
+- 콘텐츠 변경은 작고 명확한 풀 리퀘스트로 나누어 반영합니다.
+- 접근 토큰, 비공개 연락처, 공개 전 연구 자료는 커밋하지 않습니다.
