@@ -146,6 +146,149 @@ a:focus-visible {
   font-weight: 700;
 }
 
+.members-section {
+  max-width: none;
+  margin: auto;
+  padding: 105px max(32px, calc((100% - 1216px) / 2));
+  background: #fff;
+}
+
+.member-groups {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+}
+
+.member-group {
+  padding: 34px 38px 38px 0;
+}
+
+.member-group + .member-group {
+  padding-right: 0;
+  padding-left: 38px;
+  border-left: 1px solid var(--line);
+}
+
+.member-group > header {
+  display: flex;
+  align-items: flex-start;
+  gap: 22px;
+}
+
+.member-group > header > span {
+  color: var(--cyan);
+  font-family: "DM Mono", monospace;
+  font-size: 13px;
+  font-weight: 700;
+}
+
+.member-group header p {
+  margin: 0 0 4px;
+  color: var(--muted);
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.member-group h3 {
+  margin: 0;
+  font-size: 31px;
+  letter-spacing: -1.5px;
+}
+
+.member-empty {
+  min-height: 218px;
+  margin-top: 46px;
+  padding: 34px;
+  background: linear-gradient(135deg, #f5f7fb, #edf2f8);
+  border-left: 4px solid var(--cyan);
+}
+
+.member-group.alumni .member-empty {
+  background: linear-gradient(135deg, #f4f5fa, #eef0f6);
+  border-left-color: var(--blue);
+}
+
+.member-empty strong {
+  display: block;
+  font-size: 20px;
+}
+
+.member-empty p {
+  max-width: 460px;
+  margin: 12px 0 28px;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.member-empty small {
+  color: var(--blue);
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+}
+
+.member-policy {
+  margin: 18px 0 0;
+  color: var(--muted);
+  font-size: 13px;
+  text-align: right;
+}
+
+/* 실제 구성원 프로필을 추가할 때 사용하는 카드 형식 */
+.member-card {
+  display: grid;
+  align-content: start;
+  border-top: 1px solid var(--line);
+  padding-top: 18px;
+}
+
+.member-card > img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: cover;
+}
+
+.member-meta {
+  margin: 16px 0 0;
+  color: var(--cyan);
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+}
+
+.member-card h3 {
+  margin: 5px 0;
+  font-size: 24px;
+}
+
+.member-focus {
+  margin: 0;
+  color: var(--muted);
+  font-size: 15px;
+}
+
+.member-tags,
+.member-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 14px;
+}
+
+.member-tags {
+  margin: 18px 0;
+  padding: 0;
+  color: var(--blue);
+  font-size: 12px;
+  list-style: none;
+}
+
+.member-links a {
+  color: var(--blue);
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
 .project-banner {
   display: grid;
   grid-template-columns: 1.35fr 0.65fr;
@@ -244,6 +387,10 @@ a:focus-visible {
     padding: 70px 24px;
   }
 
+  .members-section {
+    padding: 70px 24px;
+  }
+
   .professor-profile {
     grid-template-columns: 1fr;
     gap: 32px;
@@ -260,6 +407,30 @@ a:focus-visible {
 
   .career li {
     grid-template-columns: 76px 1fr;
+  }
+
+  .member-groups {
+    grid-template-columns: 1fr;
+  }
+
+  .member-group,
+  .member-group + .member-group {
+    padding: 28px 0;
+  }
+
+  .member-group + .member-group {
+    border-top: 1px solid var(--line);
+    border-left: 0;
+  }
+
+  .member-empty {
+    min-height: 0;
+    margin-top: 28px;
+    padding: 26px;
+  }
+
+  .member-policy {
+    text-align: left;
   }
 
   .project-note {
