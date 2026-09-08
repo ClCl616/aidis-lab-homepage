@@ -25,20 +25,125 @@ a:focus-visible {
   outline-offset: 4px;
 }
 
-.people-grid article > span {
-  color: var(--blue);
+.platform {
+  background: linear-gradient(145deg, #173a65, #376bc1 55%, #02a9b1);
+}
+
+.visualization {
+  background: linear-gradient(145deg, #5b2f83, #d05277 58%, #f1a35a);
+}
+
+.insight {
+  background: linear-gradient(145deg, #063b4f, #057a7e 55%, #39c7a5);
+}
+
+.research-grid .research-card,
+.research-grid .quick-links {
+  min-height: 260px;
+}
+
+.research-grid .quick-links {
+  grid-column: span 2;
+}
+
+.professor-section {
+  max-width: 1280px;
+  margin: auto;
+  padding: 105px 32px 115px;
+}
+
+.professor-profile {
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) 1.28fr;
+  gap: clamp(40px, 7vw, 90px);
+  align-items: center;
+  border-top: 1px solid var(--line);
+  padding-top: 28px;
+}
+
+.professor-profile > img {
+  display: block;
+  width: 100%;
+  max-height: 520px;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.professor-copy h3 {
+  margin: 0;
+  font-size: clamp(36px, 4vw, 54px);
+  letter-spacing: -2.5px;
+  line-height: 1.15;
+}
+
+.professor-lead {
+  max-width: 650px;
+  margin: 18px 0 28px;
+  color: var(--muted);
+  font-size: 18px;
+}
+
+.professor-copy dl {
+  margin: 0 0 24px;
+  border-top: 1px solid var(--line);
+}
+
+.professor-copy dl > div {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 22px;
+  padding: 12px 0;
+  border-bottom: 1px solid var(--line);
+}
+
+.professor-copy dt {
+  color: var(--cyan);
+  font-family: "DM Mono", monospace;
   font-size: 12px;
   font-weight: 700;
 }
 
-.people-status .portrait {
-  font-family: "DM Mono", monospace;
-  font-size: 38px;
-  letter-spacing: 1px;
+.professor-copy dd {
+  margin: 0;
+  color: var(--ink);
+  font-size: 15px;
 }
 
-.people-grid a:hover {
-  color: var(--cyan);
+.professor-copy dd a {
+  color: var(--blue);
+  text-decoration: none;
+}
+
+.career {
+  margin: 28px 0;
+}
+
+.career h4 {
+  margin: 0 0 12px;
+  font-size: 17px;
+}
+
+.career ol {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.career li {
+  display: grid;
+  grid-template-columns: 90px 1fr;
+  gap: 12px;
+  color: var(--muted);
+  font-size: 14px;
+}
+
+.career li span {
+  color: var(--blue);
+  font-family: "DM Mono", monospace;
+  font-size: 12px;
+  font-weight: 700;
 }
 
 .project-banner {
@@ -68,6 +173,37 @@ a:focus-visible {
   margin: 12px 0 24px;
   color: #d7e4ed;
   font-size: 15px;
+}
+
+.project-note h3 {
+  margin: 10px 0 0;
+  font-size: clamp(22px, 2.2vw, 30px);
+  line-height: 1.35;
+  letter-spacing: -1px;
+}
+
+.achievement {
+  display: grid;
+  gap: 4px;
+  margin-top: 30px;
+  padding-top: 24px;
+  border-top: 1px solid #ffffff40;
+}
+
+.achievement span {
+  color: #80e7e0;
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  letter-spacing: 1px;
+}
+
+.achievement strong {
+  font-size: 17px;
+}
+
+.achievement small {
+  color: #d7e4ed;
+  font-size: 13px;
 }
 
 @media (max-width: 800px) {
@@ -102,6 +238,28 @@ a:focus-visible {
   .project-banner {
     grid-template-columns: 1fr;
     gap: 38px;
+  }
+
+  .professor-section {
+    padding: 70px 24px;
+  }
+
+  .professor-profile {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .professor-profile > img {
+    max-height: 430px;
+  }
+
+  .professor-copy dl > div {
+    grid-template-columns: 72px 1fr;
+    gap: 14px;
+  }
+
+  .career li {
+    grid-template-columns: 76px 1fr;
   }
 
   .project-note {
