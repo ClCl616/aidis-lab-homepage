@@ -390,6 +390,87 @@ a:focus-visible {
   font-size: 13px;
 }
 
+.community-section {
+  max-width: 980px;
+}
+
+.community-section > .overline {
+  color: var(--cyan);
+}
+
+.community-section > .contact-summary {
+  max-width: 580px;
+  margin: 20px auto 42px;
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr 0.8fr;
+  width: 100%;
+  margin: 0;
+  border-top: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  font-style: normal;
+  text-align: left;
+}
+
+.contact-grid > * {
+  min-width: 0;
+  min-height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 26px 28px;
+}
+
+.community-section .contact-location {
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0;
+}
+
+.contact-grid > * + * {
+  border-left: 1px solid var(--line);
+}
+
+.contact-grid a {
+  color: var(--ink);
+  text-decoration: none;
+  transition: background 0.2s, color 0.2s;
+}
+
+.contact-grid a:hover {
+  background: var(--blue);
+  color: #fff;
+}
+
+.contact-grid span {
+  color: var(--cyan);
+  font-family: "DM Mono", monospace;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.contact-grid strong {
+  display: block;
+  overflow-wrap: anywhere;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+.contact-grid small {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.contact-grid a:hover small,
+.contact-grid a:hover span {
+  color: #bdeff0;
+}
+
 @media (max-width: 800px) {
   html {
     scroll-padding-top: 115px;
@@ -478,6 +559,20 @@ a:focus-visible {
     padding-top: 24px;
     padding-left: 0;
     border-top: 1px solid #ffffff40;
+    border-left: 0;
+  }
+
+  .contact-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-grid > * {
+    min-height: 128px;
+    padding: 22px 24px;
+  }
+
+  .contact-grid > * + * {
+    border-top: 1px solid var(--line);
     border-left: 0;
   }
 }
