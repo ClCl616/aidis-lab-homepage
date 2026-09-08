@@ -228,17 +228,6 @@ a:focus-visible {
   font-size: 12px;
 }
 
-.member-policy {
-  margin: 18px 0 0;
-  color: var(--muted);
-  font-size: 13px;
-  text-align: right;
-}
-
-.member-policy strong {
-  color: var(--ink);
-}
-
 /* 실제 구성원 프로필을 추가할 때 사용하는 카드 형식 */
 .member-cards {
   display: grid;
@@ -483,10 +472,6 @@ a:focus-visible {
 
   .member-cards {
     margin-top: 28px;
-  }
-
-  .member-policy {
-    text-align: left;
   }
 
   .project-note {
