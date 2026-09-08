@@ -235,12 +235,51 @@ a:focus-visible {
   text-align: right;
 }
 
+.member-policy strong {
+  color: var(--ink);
+}
+
 /* 실제 구성원 프로필을 추가할 때 사용하는 카드 형식 */
+.member-cards {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 18px;
+  margin-top: 46px;
+}
+
 .member-card {
   display: grid;
   align-content: start;
   border-top: 1px solid var(--line);
   padding-top: 18px;
+}
+
+.member-avatar {
+  aspect-ratio: 4 / 5;
+  display: flex;
+  align-items: flex-end;
+  padding: 22px;
+  color: #fff;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-size: 38px;
+  font-weight: 800;
+  letter-spacing: -2px;
+}
+
+.avatar-cyan {
+  background: linear-gradient(145deg, #164c75, #00a9ba);
+}
+
+.avatar-violet {
+  background: linear-gradient(145deg, #24265f, #7a55aa 58%, #e1847a);
+}
+
+.avatar-blue {
+  background: linear-gradient(145deg, #13284f, #285da9 60%, #6fbad0);
+}
+
+.avatar-gold {
+  background: linear-gradient(145deg, #475767, #9f8942 60%, #e2c85b);
 }
 
 .member-card > img {
@@ -256,9 +295,21 @@ a:focus-visible {
   font-size: 12px;
 }
 
-.member-card h3 {
+.member-meta b {
+  display: block;
+  width: fit-content;
+  margin-top: 7px;
+  padding: 2px 7px;
+  background: #eef2f8;
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 0;
+}
+
+.member-card h4 {
   margin: 5px 0;
   font-size: 24px;
+  letter-spacing: -1px;
 }
 
 .member-focus {
@@ -282,7 +333,8 @@ a:focus-visible {
   list-style: none;
 }
 
-.member-links a {
+.member-links a,
+.member-links span {
   color: var(--blue);
   font-size: 13px;
   font-weight: 700;
@@ -429,6 +481,10 @@ a:focus-visible {
     padding: 26px;
   }
 
+  .member-cards {
+    margin-top: 28px;
+  }
+
   .member-policy {
     text-align: left;
   }
@@ -438,5 +494,15 @@ a:focus-visible {
     padding-left: 0;
     border-top: 1px solid #ffffff40;
     border-left: 0;
+  }
+}
+
+@media (max-width: 520px) {
+  .member-cards {
+    grid-template-columns: 1fr;
+  }
+
+  .member-avatar {
+    aspect-ratio: 5 / 3;
   }
 }
