@@ -1,0 +1,185 @@
+/* Shared additions for the separate static pages. */
+.brand-logo{width:38px;height:38px;flex-shrink:0}
+footer .brand-logo{width:30px;height:30px}
+.site-header nav a{padding:10px 0;border-bottom:2px solid transparent}
+.site-header nav a[aria-current="page"]{color:var(--blue);border-color:var(--cyan)}
+.header-link[aria-current="page"]{color:var(--blue);border-color:var(--cyan)}
+main{min-height:calc(100vh - 180px)}
+.page-heading{max-width:1280px;margin:auto;padding:70px 32px 0}
+.page-heading>a,.source-link{color:var(--muted);font-size:13px;text-underline-offset:4px}
+.page-heading h1{font-size:clamp(36px,4vw,54px);letter-spacing:-2px;line-height:1.2;margin:22px 0 14px}
+.page-heading>p{max-width:640px;color:var(--muted);word-break:keep-all}
+.page-body{max-width:1280px;margin:auto;padding:52px 32px 90px}
+.page-body.research-section{max-width:none;margin-top:42px}
+.research-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;min-height:0}
+.research-grid .research-card{min-height:350px;padding:30px}
+.research-card h3{font-size:30px;line-height:1.35}
+.research-card small{font-size:15px;word-break:keep-all}
+.research-detail{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:30px;margin-top:38px}
+.research-detail article{border-top:1px solid var(--line);padding-top:20px}
+.research-detail h3{font-size:19px;margin:0 0 12px}
+.research-detail p{color:var(--muted);font-size:15px;word-break:keep-all}
+.home-links{max-width:1280px;margin:auto;display:grid;grid-template-columns:repeat(3,1fr);gap:24px;padding:0 32px 95px}
+.home-links a{padding:28px;border-top:2px solid var(--cyan);background:#fff;text-decoration:none;color:var(--ink)}
+.home-links a:hover{background:#eef5f8}
+.home-links small{font-family:'DM Mono',monospace;color:var(--cyan)}
+.home-links h2{font-size:25px;margin:14px 0}
+.home-links p{font-size:15px;color:var(--muted);margin:0}
+.professor-profile{align-items:start}
+.professor-copy h2{margin:0;font-size:clamp(36px,4vw,54px);letter-spacing:-2.5px;line-height:1.15}
+.research-card h2{margin:0 0 14px;font-size:30px;line-height:1.3;letter-spacing:-1.5px}
+.contact-page h1{font-size:48px;line-height:1.2;letter-spacing:-2px;margin:0}
+.professor-profile>img{max-width:360px;max-height:470px}
+.profile-section{margin-top:65px;padding-top:32px;border-top:1px solid var(--line)}
+.profile-section>h2{font-size:30px;margin:0 0 24px;letter-spacing:-1px}
+.profile-section>h3{margin:32px 0 20px;font-size:21px}
+.timeline{margin:0;padding:0;list-style:none}
+.timeline li{display:grid;grid-template-columns:175px minmax(0,1fr);gap:24px;padding:16px 0;border-bottom:1px solid var(--line)}
+.timeline time{color:var(--blue);font-size:13px;font-family:'DM Mono',monospace}
+.timeline strong{font-weight:600}
+.timeline small{display:block;color:var(--muted);font-size:14px;margin-top:4px}
+.profile-section details{margin-top:22px}
+summary{cursor:pointer;color:var(--blue);padding:12px 0;font-weight:600}
+summary:focus-visible{outline:3px solid #f1c845;outline-offset:4px}
+.project-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.project-item{padding:26px;background:#fff;border:1px solid var(--line)}
+.project-item h4{font-size:19px;margin:14px 0 10px;word-break:keep-all}
+.project-item p{font-size:14px;color:var(--muted);margin:8px 0;word-break:keep-all}
+.status{font-size:11px;color:#086e74;background:#e1f3f2;padding:4px 8px;font-weight:700}
+.status.complete{color:var(--muted);background:#edf0f5}
+.profile-section .source-link{display:inline-block;margin-top:20px}
+.publications{padding-left:22px}
+.publications li{margin-bottom:18px;padding-left:8px;overflow-wrap:anywhere}
+.publications small{display:block;color:var(--muted);margin-top:4px}
+.about-copy{max-width:850px;font-size:18px;line-height:1.9;word-break:keep-all}
+.about-copy h2{font-size:30px;line-height:1.4}
+.about-copy p{color:var(--muted)}
+.contact-page{padding-top:80px}
+.hero-pager{display:none}
+@media(max-width:800px){.page-heading{padding:44px 24px 0}.page-body{padding:32px 24px 65px}.research-grid,.research-detail,.home-links,.project-list{grid-template-columns:1fr}.research-grid .research-card{min-height:300px}.home-links{padding:0 24px 60px}.profile-section{margin-top:44px}.timeline li{grid-template-columns:1fr;gap:6px}.brand-logo{width:30px;height:30px}.contact-page{padding-top:55px}.research-detail{gap:18px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+@media(max-width:800px){.site-header nav{flex:0 0 100%;width:100%;gap:26px}.site-header nav a{padding:5px 0}.research-card h2{font-size:28px}.contact-page h1{font-size:39px}}
+
+/* Calm, document-like layouts for people and academic records. */
+.people-nav{position:sticky;top:88px;z-index:5;display:flex;justify-content:flex-start;flex-wrap:wrap;gap:8px;background:#fff;padding:14px 0;margin:0 0 28px;border-bottom:1px solid var(--line)}
+.people-nav a{display:flex;align-items:center;min-height:44px;padding:10px 18px;background:#f0f4f7;border-radius:6px;color:#263e5d;font-size:15px;text-decoration:none}
+.people-nav a:hover,.people-nav a:focus-visible{background:#183d83;color:white}
+.people-nav a:last-child{margin-left:auto;background:transparent;text-decoration:underline;text-underline-offset:5px}
+.people-contact{display:flex;align-items:center;justify-content:space-between;gap:28px;padding:28px;background:#eef5f7;border-radius:8px;margin-top:48px}
+.people-contact h2{font-size:22px;margin:0 0 10px;letter-spacing:-.7px}
+.people-contact p{font-size:15px;color:#465970;margin:0;max-width:640px;word-break:keep-all}
+.people-contact>a{flex-shrink:0;min-height:44px}
+.members-page{--muted:#465970}
+.members-page .people-block{scroll-margin-top:85px}
+.members-page .person-card{display:flex;flex-direction:column;border-color:#cfd9e3;padding:30px;border-top:3px solid #3d7885}
+.members-page .alumni-grid .person-card{border-top-color:#748299}
+.members-page .person-card>p{font-size:16px;line-height:1.8;flex:1}
+.members-page .person-year{font-size:14px}
+.members-page .person-year span{font-size:12px;color:#526379;background:#edf1f5;padding:2px 6px;border-radius:3px}
+.members-page .person-tags li{font-size:13px;color:#3d526c}
+.members-page .people-heading>p{font-size:15px}
+.members-page .record-label{font-size:13px}
+.members-page .alumni-record p{font-size:16px}
+.members-page .award-detail{font-size:15px}
+.profile-jump a{min-height:44px;display:flex;align-items:center;font-size:16px}
+@media(max-width:800px){.people-nav{top:112px;gap:8px}.people-nav a{padding:10px 12px;font-size:14px}.people-contact{align-items:start;flex-direction:column}.members-page .people-block{scroll-margin-top:140px}}
+.page-heading{padding-top:58px}
+.page-heading h1{margin-top:0}
+.page-heading>.overline{color:var(--cyan);font-size:11px;margin-bottom:14px}
+.research-grid .data{background:linear-gradient(145deg,#325b70,#173b52)}
+.research-page-body{max-width:1280px!important;background:transparent;margin-top:0!important}
+.research-page-body .research-card{border-radius:8px}
+.professor-page,.members-page{background:#fff}
+.professor-page .page-heading,.members-page .page-heading{max-width:1180px}
+.professor-page .page-body,.members-page .page-body{max-width:1180px;padding-top:26px}
+.professor-page .professor-profile{grid-template-columns:220px minmax(0,1fr);gap:40px;padding:0;border:0;align-items:start}
+.professor-page .professor-profile>img{width:220px;height:284px;max-height:none;border-radius:6px;object-fit:cover}
+.professor-page .professor-copy h2{font-size:38px;letter-spacing:-1.8px}
+.professor-page .professor-lead{font-size:16px;margin:14px 0 22px}
+.professor-page .professor-copy dl{display:block;border:0;margin:0}
+.professor-page .professor-copy dl>div{grid-template-columns:90px minmax(0,1fr);gap:18px;padding:10px 0;border:0;align-items:baseline}
+.professor-page .professor-copy dl>div:nth-child(2),.professor-page .professor-copy dl>div:nth-child(3),.professor-page .professor-copy dl>div:nth-child(4){grid-column:1/-1}
+.professor-page .professor-copy dl>div:first-child{grid-column:1/-1}
+.professor-page .professor-copy dt{color:#465970;font-size:14px}
+.professor-page .professor-copy dd{font-size:16px;word-break:keep-all;overflow-wrap:anywhere}
+.profile-jump{display:flex;flex-wrap:wrap;gap:30px;padding:20px 0;margin-top:38px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.profile-jump a{color:var(--blue);text-decoration:none;font-size:14px}
+.profile-jump a:hover{color:var(--cyan)}
+.professor-page .profile-section{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;margin:0;padding:42px 0;border-top:0;border-bottom:1px solid var(--line)}
+.profile-section-label h2{font-size:24px;letter-spacing:-1px;margin:0}
+.profile-section-label .overline{font-size:10px;letter-spacing:.8px;margin:0 0 10px}
+.professor-page .timeline li{grid-template-columns:150px minmax(0,1fr);gap:24px;padding:16px 0;align-items:baseline}
+.professor-page .timeline li:first-child{padding-top:0}
+.professor-page .timeline li:last-child{border-bottom:0}
+.professor-page .timeline strong{font-size:16px;font-weight:600;line-height:1.75}
+.professor-page .timeline small{font-size:14px;color:#465970;line-height:1.75}
+.professor-page .timeline time{font-size:14px;color:#465970;font-family:'Noto Sans KR',sans-serif;font-variant-numeric:tabular-nums}
+.professor-page details{margin-top:12px}
+.professor-page summary{font-size:15px;min-height:44px}
+.profile-section-content{min-width:0}
+.profile-section-content>h3{font-size:17px;margin:32px 0 16px}
+.profile-section-content>h3:first-child{margin-top:0}
+.professor-page .project-list{display:block}
+.professor-page .project-item{position:relative;padding:18px 0 18px 72px;border:0;border-bottom:1px solid var(--line);background:none}
+.professor-page .project-item:last-child{border-bottom:0}
+.professor-page .project-item .status{position:absolute;top:22px;left:0;font-size:10px;border-radius:3px}
+.professor-page .project-item h4{font-size:17px;font-weight:600;margin:0 0 7px;line-height:1.7}
+.professor-page .project-item p{font-size:15px;margin:5px 0;color:#465970;line-height:1.75}
+.professor-page .publications{margin:0;padding-left:20px}
+.professor-page .publications li{font-size:16px;line-height:1.8;padding:0 0 16px 8px;margin:0 0 16px;border-bottom:1px solid var(--line)}
+.professor-page .publications li:last-child{border:0;margin:0;padding-bottom:0}
+.professor-page .publications small{font-size:14px;margin-top:6px;color:#465970}
+.faculty-strip{display:flex;justify-content:space-between;align-items:center;gap:20px;padding:22px 28px;background:#f4f7fa;border-radius:8px;color:var(--ink);text-decoration:none}
+.faculty-strip>div{display:flex;align-items:center;gap:22px;flex-wrap:wrap}
+.faculty-strip span,.faculty-strip small{font-size:13px;color:var(--muted)}
+.faculty-strip strong{font-size:18px;font-weight:600}
+.faculty-strip .faculty-more{color:var(--blue);white-space:nowrap}
+.faculty-strip:hover{background:#eaf2f6}
+.people-block{padding-top:50px}
+.people-heading{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;margin-bottom:24px}
+.people-heading h2{font-size:27px;letter-spacing:-1px;margin:0;line-height:1.3}
+.people-heading .overline{margin-bottom:8px;font-size:10px}
+.people-heading>p{font-size:14px;color:var(--muted);margin:0}
+.person-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}
+.person-card{padding:28px;border:1px solid #e1e7ed;border-radius:8px;background:#fff}
+.person-heading{display:flex;align-items:center;gap:18px}
+.person-monogram{width:64px;height:64px;display:grid;place-items:center;flex-shrink:0;border-radius:50%;background:#e9f2f3;color:#24616b;font-family:'Plus Jakarta Sans',sans-serif;font-size:20px;font-weight:700;letter-spacing:-1px}
+.person-year{display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:12px;color:var(--muted);margin:0 0 5px}
+.person-year span{font-size:10px;color:#738195}
+.person-card h3{font-size:22px;margin:0;font-weight:600;letter-spacing:-.8px}
+.person-card>p{font-size:14px;line-height:1.8;color:var(--muted);margin:20px 0;word-break:keep-all}
+.person-tags{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
+.person-tags li{padding:4px 9px;background:#f4f6f9;color:#53657c;font-size:11px;border-radius:4px}
+.alumni-grid .person-monogram{background:#eef0f5;color:#596780}
+.alumni-grid .person-card{background:#fafbfc}
+.alumni-achievements{margin-top:50px;padding-top:32px;border-top:1px solid var(--line)}
+.alumni-record{display:grid;grid-template-columns:150px minmax(0,1fr);gap:28px}
+.record-label{font-family:'DM Mono',monospace;color:var(--cyan);font-size:11px;padding-top:6px}
+.record-label span{display:block;color:var(--muted);font-family:'Noto Sans KR',sans-serif;font-size:13px;margin-top:7px}
+.alumni-record h3{font-size:21px;margin:0 0 10px}
+.alumni-record p{font-size:14px;color:var(--muted);margin:0 0 14px;word-break:keep-all}
+.award-detail{font-size:12px;color:var(--blue)}
+@media(max-width:800px){
+ .page-heading{padding-top:38px}
+ .professor-page .professor-profile{grid-template-columns:140px minmax(0,1fr);gap:26px;align-items:start}
+ .professor-page .professor-profile>img{width:140px;height:182px}
+ .professor-page .professor-copy h2{font-size:32px}
+ .professor-page .professor-copy dl{display:block}
+ .professor-page .profile-section{grid-template-columns:1fr;gap:24px;padding:32px 0}
+ .person-grid{grid-template-columns:1fr}
+ .people-heading{align-items:start;flex-direction:column;gap:10px}
+ .faculty-strip{padding:20px}
+ .faculty-strip>div{gap:8px 16px}
+ .alumni-record{grid-template-columns:1fr;gap:16px}
+}
+@media(max-width:520px){
+ .professor-page .professor-profile{display:block}
+ .professor-page .professor-profile>img{width:128px;height:166px;margin-bottom:24px}
+ .professor-page .timeline li{grid-template-columns:1fr;gap:4px}
+ .professor-page .project-item{padding-left:0;padding-top:16px}
+ .professor-page .project-item .status{position:static;display:inline-block;margin-bottom:10px}
+ .profile-jump{gap:24px;padding:16px 0;margin-top:28px}
+ .person-card{padding:22px}
+ .faculty-strip>div{display:grid}
+ .faculty-strip small{font-size:12px}
+}
