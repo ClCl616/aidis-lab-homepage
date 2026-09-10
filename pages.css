@@ -271,3 +271,173 @@ summary:focus-visible{outline:3px solid #f1c845;outline-offset:4px}
 @media(max-width:800px){.member-profile,.member-experience{grid-template-columns:1fr;gap:28px}.member-profile figure{width:140px}.member-profile figure img{width:140px;height:168px}.member-profile h1{font-size:34px}.member-facts>div{grid-template-columns:100px minmax(0,1fr);gap:14px}}
 @media(max-width:380px){.member-facts>div{grid-template-columns:1fr;gap:2px}.member-photo-small{width:64px;height:78px}}
 @media(max-width:520px){.member-facts>div{grid-template-columns:1fr;gap:2px}.member-facts dt{font-size:13px}}
+
+/* Published member profiles and their activity records. */
+.member-detail-page .member-profile{margin-top:32px}
+.member-experience-list{min-width:0}.member-experience-list article+article{margin-top:32px;padding-top:32px;border-top:1px solid var(--line)}
+.member-experience-list article,.members-page #other-members{scroll-margin-top:150px}
+.activity-list{display:grid;gap:22px}.member-activity-card{grid-template-columns:minmax(0,1fr)}
+.member-profile>div,.person-heading>div{min-width:0}.member-external a{min-height:44px;display:inline-flex;align-items:center}
+
+/* Scannable member list: technologies as tags, interests as separate lines. */
+.members-page .member-card-facts{margin:24px 0 20px}
+.members-page .member-card-facts>div{margin:0;padding:18px 0;border-top:1px solid #e1e7ed}
+.members-page .member-card-facts dt{font-size:14px;font-weight:700;color:#203d59;margin-bottom:12px}
+.member-stack-list{display:flex;flex-wrap:wrap;gap:7px;list-style:none;padding:0;margin:0}
+.member-stack-list li{padding:4px 10px;border:1px solid #dbe5ed;border-radius:5px;background:#f3f7fa;color:#263e5d;font-size:13px;line-height:1.65;max-width:100%}
+.member-interests-list{display:grid;gap:7px;padding:0;margin:0;list-style:none}
+.member-interests-list li{position:relative;padding-left:14px;font-size:14px;line-height:1.7;word-break:keep-all;overflow-wrap:anywhere}
+.member-interests-list li::before{content:"";position:absolute;left:0;top:9px;width:5px;height:5px;border-radius:50%;background:#35848d}
+.members-page .person-year .member-cohort{background:#e8f3f3;color:#245b64;font-weight:600;padding:3px 8px}
+.members-page .people-block{scroll-margin-top:175px}
+@media(max-width:800px){.members-page .people-block{scroll-margin-top:205px}}
+
+/* Member directory: compact identity column and parallel expertise sections. */
+.members-page{background:#f7f9fb}
+.members-page .page-heading{padding-top:44px}
+.members-page .page-heading h1{font-size:42px;letter-spacing:-1.8px;margin-bottom:12px}
+.members-page .page-heading>p:last-child{font-size:16px;color:#53657b}
+.members-page .page-body{padding-top:24px}
+.members-page .people-nav{position:static;gap:16px;margin-bottom:30px;padding:0 0 20px;background:transparent;border-bottom:1px solid #dce4ec}
+.members-page .people-nav [role="tablist"]{padding:4px;background:#e9eef4;border-radius:10px;gap:4px}
+.members-page .people-nav button{display:flex;align-items:center;gap:10px;border-radius:7px;background:transparent;padding:10px 18px;font-size:14px;font-weight:600}
+.members-page .people-nav button[aria-selected="true"]{background:#fff;color:#183d83;box-shadow:0 1px 5px #12213e12}
+.member-tab-count{display:inline-grid;place-items:center;min-width:22px;height:22px;padding:0 5px;border-radius:5px;background:#dce5ed;color:#405773;font-size:12px}
+.members-page button[aria-selected="true"] .member-tab-count{background:#e2f2f2;color:#245b64}
+.members-page .people-nav>a{align-self:center;margin-left:auto;font-size:13px}
+.members-page [role="tabpanel"]>.people-block:first-child{padding-top:0}
+.members-page .people-block{scroll-margin-top:112px}
+.members-page .people-heading{margin-bottom:20px;align-items:center}
+.members-page .people-heading .overline{display:none}
+.members-page .people-heading h2{font-size:21px;letter-spacing:-.6px}
+.members-page .people-heading>p{font-size:13px}
+.members-page .person-grid{grid-template-columns:1fr;gap:16px}
+.members-page .person-card{display:grid;grid-template-columns:235px minmax(0,1fr);grid-template-rows:1fr auto;column-gap:30px;row-gap:16px;padding:28px;border:1px solid #dce4ec;border-radius:12px;background:#fff;box-shadow:0 3px 12px #183d8304}
+.members-page .person-card[data-leader="1"]{border-left:3px solid #35848d;padding-left:26px}
+.members-page .person-heading{grid-column:1;grid-row:1;align-items:flex-start;gap:16px}
+.members-page .member-photo-small{width:80px;height:100px;border-radius:8px;background:#edf2f5}
+.members-page .person-card h3{font-size:24px;letter-spacing:-.8px;margin:3px 0 9px;line-height:1.3}
+.members-page .person-year{display:block;font-size:12px;line-height:1.9;margin:0;color:#526379;word-break:keep-all}
+.members-page .person-year span{display:inline-block;margin:8px 4px 0 0;padding:2px 7px;border-radius:4px;line-height:1.7}
+.members-page .person-year .member-cohort{padding:2px 7px}
+.members-page .person-year span:not(.member-cohort){background:#1f5963;color:#fff;font-weight:600}
+.members-page .member-card-facts{grid-column:2;grid-row:1 / span 2;display:grid;grid-template-columns:1fr 1.15fr;gap:26px;margin:0;padding-left:28px;border-left:1px solid #e5ebf1;align-content:start}
+.members-page .member-card-facts>div{padding:0;border:0;margin:0;min-width:0}
+.members-page .member-card-facts dt{font-size:12px;letter-spacing:.3px;color:#66788b;margin:0 0 12px}
+.members-page .member-stack-list{gap:6px}
+.members-page .member-stack-list li{font-size:12px;padding:3px 8px;border:0;background:#f0f4f8;color:#324d68;line-height:1.7}
+.members-page .member-interests-list{gap:6px}
+.members-page .member-interests-list li{font-size:13px;line-height:1.7;padding-left:12px}
+.members-page .member-interests-list li::before{top:9px;width:4px;height:4px}
+.members-page .member-detail-link{grid-column:1;grid-row:2;justify-content:space-between;align-self:end;width:100%;margin:0;border-top:1px solid #e5ebf1;padding-top:12px;text-decoration:none;font-size:13px;min-height:44px}
+.members-page .member-detail-link span{font-size:18px;color:#35848d}
+.members-page .member-detail-link:hover{color:#207981}
+.members-page .member-detail-link:focus-visible{outline:3px solid #b48400;outline-offset:5px;border-radius:3px}
+.members-page .person-card:focus-within{border-color:#35848d;box-shadow:0 0 0 1px #35848d}
+.members-page .people-contact{margin-top:28px;padding:24px 28px;border-radius:12px;background:#eaf1f4}
+.members-page .people-contact h2{font-size:20px}
+.members-page .people-contact p{font-size:14px}
+@media(max-width:1000px){.members-page .person-card{grid-template-columns:205px minmax(0,1fr);column-gap:24px;padding:24px}.members-page .person-card[data-leader="1"]{padding-left:22px}.members-page .member-card-facts{gap:20px;padding-left:24px;grid-template-columns:1fr 1fr}.members-page .member-photo-small{width:64px;height:80px}}
+@media(max-width:800px){
+ .members-page .page-heading{padding-top:32px}.members-page .page-heading h1{font-size:34px}
+ .members-page .people-heading{align-items:flex-start;gap:8px}.members-page .people-heading>p{font-size:12px}
+ .members-page .people-nav{gap:10px;padding-bottom:16px;margin-bottom:24px}.members-page .people-nav button{padding:8px 12px}
+ .members-page .person-card{grid-template-columns:minmax(0,1fr);grid-template-rows:auto auto auto;gap:20px;padding:24px}
+ .members-page .person-card[data-leader="1"]{padding-left:22px}
+ .members-page .person-heading{grid-row:1}.members-page .member-photo-small{width:72px;height:90px}
+ .members-page .person-card h3{font-size:24px}.members-page .person-year{font-size:13px}
+ .members-page .member-card-facts{grid-column:1;grid-row:2;padding:20px 0 0;border-left:0;border-top:1px solid #e5ebf1;gap:22px}
+ .members-page .member-detail-link{grid-row:3;padding-top:12px}
+ .members-page .people-block{scroll-margin-top:136px}
+}
+@media(max-width:520px){
+ .members-page .member-card-facts{grid-template-columns:1fr;gap:20px}
+ .members-page .people-nav>a{font-size:12px;padding:8px 0}.members-page .people-nav button{gap:6px;padding:8px 10px}
+ .members-page .member-stack-list li{font-size:13px}.members-page .member-interests-list li{font-size:14px}
+ .members-page .people-contact{padding:24px}.members-page .people-contact .button{width:100%;justify-content:space-between}
+}
+
+/* Member finding and readable profile hierarchy. */
+.members-page .page-heading{padding-top:48px}
+.members-page .page-heading>.overline{color:#30747d;letter-spacing:2px}
+.members-page .page-heading h1{font-size:46px}
+.members-page .person-card[hidden],.member-search[hidden],.member-search-status[hidden],.member-search-empty[hidden],#member-search-clear[hidden]{display:none}
+.member-tools{margin:24px 0 28px}
+.member-search{max-width:560px;margin-bottom:24px}
+.member-search label{display:block;font-size:14px;font-weight:600;margin-bottom:9px;color:#283f59}
+.member-search-field{display:flex;align-items:center;gap:12px;background:#fff;border:1px solid #bfcddc;border-radius:9px;padding:0 14px;min-height:52px}
+.member-search-field svg{flex-shrink:0;color:#587086}
+.member-search-field:focus-within{outline:3px solid #83bcc4;outline-offset:3px;border-color:#286975}
+.member-search input{min-width:0;width:100%;height:50px;border:0;background:transparent;color:#162e49;font:inherit;font-size:16px;outline:none}
+.member-search input::-webkit-search-cancel-button{display:none}
+.member-search input::placeholder{color:#6d7e90}
+.member-search button{border:0;background:transparent;color:#526a80;min-width:44px;min-height:44px;font-size:24px;cursor:pointer}
+.member-search>p{font-size:12px;color:#607185;margin:8px 0 0}
+.members-page .people-nav{margin:0;padding-bottom:20px}
+.member-search-status{font-size:14px;color:#2b646d;margin:-8px 0 20px}
+.member-search-empty{padding:36px 24px;margin-bottom:24px;text-align:center;border:1px dashed #bfcddc;border-radius:12px;background:white}
+.member-search-empty h2{font-size:20px;margin:0 0 8px}.member-search-empty p{font-size:14px;color:#52677b}
+.member-search-empty button{font:inherit;font-size:14px;color:#fff;background:#205d68;border:0;border-radius:6px;padding:10px 18px;min-height:44px;cursor:pointer}
+.members-page .person-card{grid-template-columns:250px minmax(0,1fr);padding:30px;column-gap:28px;box-shadow:0 4px 18px #19395305}
+.members-page .person-card[data-leader="1"]{padding-left:28px}
+.members-page .person-heading{gap:18px}
+.members-page .person-card h3{font-size:27px;margin:0 0 8px}
+.members-page .person-card h3 a{color:#18344d;text-decoration:none;display:inline-flex;align-items:center;min-height:44px}
+.members-page .person-card h3 a:hover{color:#23717d;text-decoration:underline;text-underline-offset:5px}
+.members-page .person-year{font-size:13px;line-height:1.7}
+.member-badges{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.member-badges span{font-size:12px;font-weight:600;color:#38566d;background:#edf2f6;padding:3px 8px;border-radius:4px}
+.member-badges span:not(.member-cohort){background:#205d68;color:white}
+.members-page .member-card-facts{grid-template-columns:1fr 1.1fr;gap:24px;padding-left:28px}
+.members-page .member-card-facts dt{font-size:13px;font-weight:700;color:#435c74;margin-bottom:14px}
+.members-page .member-stack-list{gap:7px}
+.members-page .member-stack-list li{font-size:14px;padding:4px 9px;line-height:1.6}
+.members-page .member-interests-list{gap:8px}
+.members-page .member-interests-list li{font-size:14px;line-height:1.8;color:#2c4962}
+.members-page .member-interests-list li::before{top:11px}
+.members-page .member-detail-link{font-size:14px}
+.members-page a:focus-visible,.member-search button:focus-visible,.member-search-empty button:focus-visible{outline:3px solid #b48400;outline-offset:4px;border-radius:3px}
+@media(max-width:1100px){.members-page .person-card{grid-template-columns:210px minmax(0,1fr);padding:24px;column-gap:24px}.members-page .person-card[data-leader="1"]{padding-left:22px}.members-page .member-card-facts{grid-template-columns:1fr;gap:20px;padding-left:24px}.members-page .person-heading{gap:14px}}
+@media(max-width:800px){.members-page .person-card{grid-template-columns:minmax(0,1fr)}.members-page .member-card-facts{grid-template-columns:1fr 1fr;padding:20px 0 0}.members-page .page-heading{padding-top:32px}.members-page .page-heading h1{font-size:36px}.member-tools{margin-top:12px}.member-search{max-width:none}.members-page .person-heading{gap:18px}}
+@media(max-width:520px){.members-page .member-card-facts{grid-template-columns:1fr}.members-page .people-heading>p{display:none}.members-page .person-card h3{font-size:26px}.member-search-field{gap:8px;padding:0 10px}.members-page .person-card{padding:22px}.members-page .person-card[data-leader="1"]{padding-left:20px}}
+
+/* Compact internal profile action shared by every member card. */
+.members-page .member-detail-link{width:fit-content;justify-content:center;gap:10px;justify-self:start;align-self:start;min-height:44px;margin:0;padding:9px 14px;border:1px solid #d3e1e8;border-radius:7px;background:#f1f6f8;color:#244d63;font-size:13px;line-height:1.6;text-decoration:none}
+.members-page .member-detail-link span{font-size:17px;color:inherit}
+.members-page .member-detail-link:hover{background:#e2eef2;border-color:#87b2be;color:#183d50}
+.members-page .person-card{grid-template-rows:auto 1fr;row-gap:18px}
+@media(max-width:800px){.members-page .person-card{grid-template-rows:auto auto auto}.members-page .member-detail-link{justify-self:start;align-self:start}}
+
+/* Profile navigation is integrated into the photo and identity block. */
+.members-page .person-card{grid-template-rows:auto;row-gap:0;align-items:start}
+.members-page .member-card-facts{grid-row:1}
+.members-page .member-identity-link{align-self:start;color:inherit;text-decoration:none;border-radius:8px;margin:-8px;padding:8px;min-height:44px;transition:background-color .15s}
+.members-page .member-identity-link h3{display:flex;align-items:center;gap:10px}
+.members-page .member-name-arrow{font-size:18px;line-height:1;color:#6d8897;font-weight:400}
+.members-page .member-identity-link:hover{background:#edf4f7}
+.members-page .member-identity-link:hover h3{color:#246a76}
+.members-page .member-identity-link:focus-visible{outline:3px solid #b48400;outline-offset:4px;background:#edf4f7}
+@media(max-width:800px){.members-page .person-card{grid-template-rows:auto auto;row-gap:20px}.members-page .member-card-facts{grid-row:2}.members-page .member-identity-link{width:calc(100% + 16px)}}
+
+/* Equal card heights follow the tallest visible member at each viewport width. */
+.members-page .person-grid{grid-auto-rows:1fr}
+
+/* Reduce equal-height whitespace by compacting the longest expertise section. */
+.members-page .person-card{padding-top:22px;padding-bottom:22px}
+.members-page .member-card-facts dt{margin-bottom:10px}
+.members-page .member-interests-list{display:flex;flex-wrap:wrap;align-content:flex-start;gap:6px}
+.members-page .member-interests-list li{padding:4px 8px;background:#edf5f4;border-radius:4px;color:#315e62;font-size:13px;line-height:1.65;max-width:100%;word-break:keep-all;overflow-wrap:anywhere}
+.members-page .member-interests-list li::before{display:none}
+@media(max-width:1100px){.members-page .person-grid{grid-auto-rows:auto}}
+
+/* Fill the identity column with a full-height portrait and centered member details. */
+@media(min-width:1101px){
+ .members-page .person-card{align-items:stretch;grid-template-columns:270px minmax(0,1fr);padding-top:16px;padding-bottom:16px;column-gap:22px}
+ .members-page .member-identity-link{align-self:stretch;display:grid;grid-template-columns:108px minmax(0,1fr);align-items:center;gap:16px;margin:0;padding:0;min-width:0}
+ .members-page .member-identity-link .member-photo-small{width:108px;height:100%;min-height:140px;max-height:190px;object-fit:cover;object-position:center;border-radius:8px}
+ .members-page .member-identity-link>div{padding:8px 0}
+ .members-page .person-card h3{font-size:26px}
+ .members-page .member-card-facts{padding-left:22px;align-self:stretch;padding-top:6px;padding-bottom:6px}
+}
+@media(max-width:1100px){.members-page .member-identity-link{align-items:center}.members-page .member-photo-small{width:88px;height:110px}}
+@media(max-width:380px){.members-page .member-photo-small{width:76px;height:96px}.members-page .person-heading{gap:14px}}
