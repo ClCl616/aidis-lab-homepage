@@ -102,7 +102,9 @@ summary:focus-visible{outline:3px solid #f1c845;outline-offset:4px}
 .professor-page .professor-copy dl>div:first-child{grid-column:1/-1}
 .professor-page .professor-copy dt{color:#465970;font-size:14px}
 .professor-page .professor-copy dd{font-size:16px;word-break:keep-all;overflow-wrap:anywhere}
-.profile-jump{display:flex;flex-wrap:wrap;gap:30px;padding:20px 0;margin-top:38px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.professor-page .profile-jump{display:flex;justify-content:flex-start;flex-wrap:wrap;gap:12px 30px;padding:20px 0;margin-top:38px;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.professor-interests{margin:0 0 20px;padding-left:20px;color:#465970;font-size:16px;line-height:1.8}
+.professor-interests li+li{margin-top:10px}
 .profile-jump a{color:var(--blue);text-decoration:none;font-size:14px}
 .profile-jump a:hover{color:var(--cyan)}
 .professor-page .profile-section{display:grid;grid-template-columns:220px minmax(0,1fr);gap:40px;margin:0;padding:42px 0;border-top:0;border-bottom:1px solid var(--line)}
@@ -178,8 +180,28 @@ summary:focus-visible{outline:3px solid #f1c845;outline-offset:4px}
  .professor-page .timeline li{grid-template-columns:1fr;gap:4px}
  .professor-page .project-item{padding-left:0;padding-top:16px}
  .professor-page .project-item .status{position:static;display:inline-block;margin-bottom:10px}
- .profile-jump{gap:24px;padding:16px 0;margin-top:28px}
+ .professor-page .profile-jump{gap:8px 24px;padding:16px 0;margin-top:28px}
  .person-card{padding:22px}
  .faculty-strip>div{display:grid}
  .faculty-strip small{font-size:12px}
 }
+
+/* Lab introduction: editorial layout distinct from the home page. */
+.about-page{background:#fff}
+.about-content{max-width:1180px;margin:auto;padding:0 48px}
+.about-intro{padding:64px 0 44px;border-bottom:2px solid #203d59}
+.about-intro h1{font-size:clamp(36px,4vw,52px);letter-spacing:-2px;line-height:1.3;margin:0 0 20px}
+.about-intro>p:last-child{font-size:17px;color:#465970;margin:0;word-break:keep-all}
+.about-page h2{font-size:clamp(26px,2.6vw,32px);line-height:1.45;letter-spacing:-1.2px;margin:0;word-break:keep-all}
+.about-story{display:grid;grid-template-columns:1fr 1.35fr;gap:64px;padding:52px 0;border-bottom:1px solid var(--line);align-items:start}
+.about-story>div>p:not(.overline){font-size:16px;line-height:1.95;color:#465970;word-break:keep-all;margin:0 0 18px}
+.about-story>div>p.about-fullname{font-family:'Plus Jakarta Sans',sans-serif;color:#24616b;font-size:18px;line-height:1.65;margin:20px 0 0}
+.about-story strong{font-weight:600;color:#203d59}
+.about-page .plain-link{display:inline-flex;align-items:center;min-height:44px}
+.about-together{display:grid;grid-template-columns:1.2fr 1fr;gap:64px;padding:52px 0 64px;align-items:center}
+.about-together>div>p:not(.overline){font-size:16px;color:#465970;line-height:1.95;word-break:keep-all;margin:24px 0 16px}
+.about-visit{background:#edf4f5;border-left:3px solid #35848d;padding:30px}
+.about-visit h3{font-size:22px;letter-spacing:-.8px;margin:0 0 20px}
+.about-visit>p:not(.overline){font-size:15px;color:#465970;line-height:1.85}
+.about-visit .button{margin-top:12px;min-height:44px}
+@media(max-width:800px){.about-content{padding:0 24px}.about-intro{padding:40px 0 32px}.about-story{grid-template-columns:1fr;gap:24px;padding:36px 0}.about-together{grid-template-columns:1fr;gap:32px;padding:36px 0 48px}.about-visit{padding:26px}.about-wide-break{display:none}}
