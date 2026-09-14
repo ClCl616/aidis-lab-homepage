@@ -52,6 +52,11 @@ function filterMembers() {
   searchEmpty.hidden = !query || matched !== 0 || total === 0;
 }
 function selectMemberTab(index) {
+  document.querySelectorAll('.section-menu a[href="#members"], .section-menu a[href="#alumni"]').forEach(link => {
+    const selected = link.getAttribute('href') === (index === 1 ? '#alumni' : '#members');
+    if (selected) link.setAttribute('aria-current', 'location');
+    else link.removeAttribute('aria-current');
+  });
   memberTabs.forEach((tab, i) => {
     const selected = i === index;
     tab.setAttribute('aria-selected', String(selected));
