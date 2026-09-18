@@ -550,17 +550,17 @@ summary:focus-visible{outline:3px solid #f1c845;outline-offset:4px}
   .professor-page .project-item p {font-size: 14px;}
 
   .members-page {background: #fff;}
-  .members-page .member-tools {display: flex; flex-direction: column; gap: 18px; margin: 0 0 24px;}
+  .members-page .member-tools {display: flex; flex-direction: row; align-items: flex-start; justify-content: space-between; gap: 24px; margin: 0 0 24px;}
   .member-search {max-width: 360px; width: 100%; margin: 0;}
   .member-search label {font-size: 13px; margin-bottom: 6px;}
   .member-search-field {min-height: 42px; border-radius: 2px;}
   .member-search input {height: 40px; font-size: 14px;}
   .member-search button {min-height: 38px;}
-  .members-page .people-nav {width: 100%; padding: 0; border: 0; gap: 12px; flex-wrap: nowrap;}
+  .members-page .people-nav {width: auto; padding: 0; border: 0; gap: 12px; flex-wrap: nowrap;}
   .members-page .people-nav [role="tablist"] {padding: 0; border-radius: 0; gap: 1px; background: transparent;}
   .members-page .people-nav button {font-size: 14px; padding: 9px 18px; border-radius: 0; background: #f0f1f3;}
   .members-page .people-nav button[aria-selected="true"] {background: #254981; color: #fff; box-shadow: none;}
-  .members-page .people-nav > a {font-size: 13px; padding-right: 0; white-space: nowrap;}
+  .members-page .people-nav > a {font-size: 13px; padding: 0; min-height: 22px; white-space: nowrap;}
   .members-page .people-heading {margin-bottom: 16px;}
   .members-page .people-heading h2 {font-size: 20px;}
   .members-page .person-grid {grid-auto-rows: auto; gap: 16px;}
@@ -579,8 +579,8 @@ summary:focus-visible{outline:3px solid #f1c845;outline-offset:4px}
   .members-page .people-contact {margin-top: 28px; padding: 22px; border-radius: 0;}
   .members-page .people-contact h2 {font-size: 19px;}
   .members-page .people-contact p {font-size: 13px;}
-  .member-detail-page .member-profile {grid-template-columns: 170px minmax(0, 1fr); gap: 28px; margin-top: 24px; padding-bottom: 28px;}
-  .member-profile figure img {width: 170px; height: 204px; border-radius: 2px;}
+  .member-detail-page .member-profile {grid-template-columns: 240px minmax(0, 1fr); gap: 36px; align-items: start; margin-top: 24px; padding-bottom: 32px;}
+  .member-detail-page .member-profile figure img {width: 240px; height: 300px; border-radius: 2px;}
   .member-profile h1 {font-size: 30px; letter-spacing: -.8px;}
   .member-lead {font-size: 15px; line-height: 1.85;}
   .member-facts {font-size: 14px; line-height: 1.85; margin: 16px 0;}
@@ -621,6 +621,8 @@ summary:focus-visible{outline:3px solid #f1c845;outline-offset:4px}
 }
 @media (min-width: 1000px) and (max-width: 1199px) {
   .academic-layout {grid-template-columns: 170px minmax(0, 1fr); gap: 24px;}
+  .member-detail-page .member-profile {grid-template-columns: 200px minmax(0, 1fr); gap: 28px;}
+  .member-detail-page .member-profile figure img {width: 200px; height: 250px;}
   .section-menu-title {font-size: 15px;}
   .site-header {gap: 24px;}
   .site-header nav {gap: 24px;}
@@ -714,3 +716,71 @@ footer.site-footer {display:flex; flex-direction:column; justify-content:center;
 .site-footer address {font-style:normal; font-size:13px; line-height:1.8;}
 .site-footer .footer-copyright {font-size:11px; color:#a0abb3; margin:18px 0 0; letter-spacing:.2px;}
 .site-footer .brand:focus-visible {outline:2px solid #a6dce0; outline-offset:6px;}
+
+/* Compact member summaries for desktop browsing. Full details stay on profiles. */
+@media (min-width: 1000px) {
+  .members-page .person-card, .members-page .person-card[data-leader="1"] {grid-template-columns: 240px minmax(0, 1fr); gap: 24px; padding: 20px 24px;}
+  .members-page .person-heading, .members-page .member-identity-link {display: grid; grid-template-columns: 88px minmax(0, 1fr); gap: 16px; align-items: center; min-width: 0;}
+  .members-page .member-photo-small, .members-page .member-identity-link .member-photo-small {width: 88px; height: 110px; min-height: 0; max-height: none; object-fit: cover; border-radius: 0;}
+  .members-page .person-card h3 {font-size: 22px; line-height: 1.3; margin: 0 0 8px;}
+  .members-page .person-year {font-size: 13px;}
+  .members-page .member-card-facts, .members-page .member-card-facts dd {min-width: 0;}
+  .members-page .member-card-facts > div {grid-template-columns: 68px minmax(0, 1fr); gap: 12px; padding: 9px 0;}
+  .members-page .member-card-facts dt {font-size: 12px;}
+  .members-page .member-stack-list, .members-page .member-interests-list {display: block; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; line-height: 28px; height: 28px;}
+  .members-page .member-stack-list li, .members-page .member-interests-list li {display: inline; font-size: 13px; line-height: 28px; margin-right: 7px; padding: 3px 5px; white-space: nowrap;}
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+  .members-page .person-card, .members-page .person-card[data-leader="1"] {grid-template-columns: 212px minmax(0, 1fr); gap: 20px; padding: 18px 20px;}
+  .members-page .person-heading, .members-page .member-identity-link {grid-template-columns: 80px minmax(0, 1fr); gap: 14px;}
+  .members-page .member-photo-small, .members-page .member-identity-link .member-photo-small {width: 80px; height: 100px;}
+  .members-page .person-card h3 {font-size: 20px;}
+}
+
+@media (min-width: 1000px) {
+  .members-page .member-stack-list, .members-page .member-interests-list {display: flex; flex-wrap: nowrap; gap: 7px; text-overflow: clip; align-items: center;}
+  .members-page .member-stack-list li, .members-page .member-interests-list li {display: block; flex: 0 0 auto; margin: 0; line-height: 22px; padding: 2px 5px;}
+  .members-page .member-card-facts li[hidden] {display: none;}
+  .member-detail-page .member-profile {grid-template-columns: 260px minmax(0, 1fr); gap: 36px; padding-bottom: 32px;}
+  .member-detail-page .member-profile figure img {width: 260px; height: 325px;}
+  .member-detail-page .member-profile .overline {margin-bottom: 12px;}
+  .member-detail-page .member-profile h1 {font-size: 30px; margin-bottom: 18px;}
+  .member-detail-page .member-profile .member-facts {font-size: 14px; line-height: 1.65; margin: 0;}
+  .member-detail-page .member-profile .member-facts > div {grid-template-columns: 84px minmax(0, 1fr); gap: 20px; padding: 6px 0; min-height: 36px; align-items: baseline;}
+  .member-detail-page .member-profile .member-facts dt {font-size: 12px;}
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+  .member-detail-page .member-profile {grid-template-columns: 220px minmax(0, 1fr); gap: 28px;}
+  .member-detail-page .member-profile figure img {width: 220px; height: 275px;}
+  .member-detail-page .member-profile .member-facts > div {grid-template-columns: 72px minmax(0, 1fr); gap: 14px;}
+}
+
+/* Align portraits with the first fact row, independently of name height. */
+@media (min-width: 1000px) {
+  .member-detail-page .member-profile, .professor-page .professor-profile {row-gap: 20px;}
+  .member-detail-page .member-profile > div, .professor-page .professor-copy {display: contents;}
+  .member-detail-page .member-profile .profile-heading, .professor-page .profile-heading {grid-column: 2; grid-row: 1;}
+  .member-detail-page .member-profile .profile-heading h1, .professor-page .profile-heading h2 {margin-bottom: 0;}
+  .member-detail-page .member-profile > figure, .professor-page .professor-profile > img {grid-column: 1; grid-row: 2; margin-top: 6px;}
+  .member-detail-page .member-profile .member-facts, .professor-page .professor-copy > dl {grid-column: 2; grid-row: 2; margin: 0; min-width: 0;}
+}
+
+/* A full-width identity heading above a balanced portrait and facts row. */
+@media (min-width: 1000px) {
+  .member-detail-page .member-profile, .professor-page .professor-profile {grid-template-columns: 220px minmax(0, 1fr); column-gap: 36px; row-gap: 24px;}
+  .member-detail-page .member-profile .profile-heading, .professor-page .profile-heading {grid-column: 1 / -1; padding-bottom: 20px; border-bottom: 1px solid var(--line);}
+  .member-detail-page .member-profile .profile-heading .overline, .professor-page .profile-heading .overline {margin: 0 0 8px;}
+  .member-detail-page .member-profile .profile-heading h1, .professor-page .profile-heading h2 {font-size: 30px; line-height: 1.3; margin: 0;}
+  .member-detail-page .member-profile > figure, .professor-page .professor-profile > img {margin: 0;}
+  .member-detail-page .member-profile figure img, .professor-page .professor-profile > img {width: 220px; height: 275px; object-fit: cover; border-radius: 2px;}
+  .member-detail-page .member-profile .member-facts > div, .professor-page .professor-copy dl > div {padding: 7px 0; grid-template-columns: 84px minmax(0, 1fr); gap: 20px;}
+}
+@media (min-width: 1000px) and (max-width: 1199px) {
+  .member-detail-page .member-profile, .professor-page .professor-profile {grid-template-columns: 200px minmax(0, 1fr); column-gap: 28px;}
+  .member-detail-page .member-profile figure img, .professor-page .professor-profile > img {width: 200px; height: 250px;}
+}
+
+@media (min-width: 1000px) {
+  .professor-page .profile-heading {border-bottom: 0; padding-bottom: 0;}
+  .professor-page .professor-profile {border-bottom: 1px solid var(--line); padding-bottom: 32px;}
+}

@@ -1,8 +1,9 @@
 // Sort within each member group: leader first, then earlier cohort and entry year.
 function sortMemberCards() {
   const numericValue = (card, key) => {
-    const value = Number(card.dataset[key]);
-    return Number.isFinite(value) && value > 0 ? value : Number.MAX_SAFE_INTEGER;
+    const raw = card.dataset[key];
+    const value = raw == null || raw.trim() === '' ? NaN : Number(raw);
+    return Number.isFinite(value) && value >= 0 ? value : Number.MAX_SAFE_INTEGER;
   };
   document.querySelectorAll('.person-grid').forEach(grid => {
     const cards = [...grid.querySelectorAll(':scope > .person-card')];
@@ -50,6 +51,7 @@ function filterMembers() {
   searchStatus.hidden = !query;
   searchStatus.textContent = query ? `검색 결과 ${matched}명 · ${tab.id === 'tab-alumni' ? '졸업생' : '재학생'} 전체 ${total}명` : '';
   searchEmpty.hidden = !query || matched !== 0 || total === 0;
+  fitMemberTags();
 }
 function selectMemberTab(index) {
   document.querySelectorAll('.section-menu a[href="#members"], .section-menu a[href="#alumni"]').forEach(link => {
@@ -109,3 +111,33 @@ followMemberHash();
 window.addEventListener('hashchange', followMemberHash);
 window.addEventListener('popstate', followMemberHash);
 window.addEventListener('pageshow', followMemberHash);
+
+// Keep only complete tags that fit in one desktop row; preserve text for search.
+function fitMemberTags() {
+  const desktop = window.matchMedia('(min-width: 1000px)').matches;
+  document.querySelectorAll('.member-stack-list, .member-interests-list').forEach(list => {
+    const items = [...list.children];
+    items.forEach(item => { item.hidden = false; });
+    if (!desktop || !list.getClientRects().length) return;
+    const available = list.clientWidth;
+    const gap = parseFloat(getComputedStyle(list).columnGap) || 0;
+    let used = 0;
+    let visible = 0;
+    items.forEach(item => {
+      const width = item.getBoundingClientRect().width;
+      const next = used + (visible ? gap : 0) + width;
+      if (next > available) item.hidden = true;
+      else { used = next; visible += 1; }
+    });
+  });
+}
+let tagFitFrame;
+function scheduleTagFit() {
+  cancelAnimationFrame(tagFitFrame);
+  tagFitFrame = requestAnimationFrame(fitMemberTags);
+}
+const tagResizeObserver = new ResizeObserver(scheduleTagFit);
+document.querySelectorAll('.member-stack-list, .member-interests-list').forEach(list => tagResizeObserver.observe(list));
+window.addEventListener('resize', scheduleTagFit);
+document.fonts.ready.then(scheduleTagFit);
+fitMemberTags();
