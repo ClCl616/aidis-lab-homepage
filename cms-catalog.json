@@ -1,0 +1,3482 @@
+{
+  "about.html": {
+    "title": "연구실 소개",
+    "kind": "content",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "INTRODUCTION",
+        "type": "text",
+        "value": "INTRODUCTION"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "연구실 소개",
+        "type": "text",
+        "value": "연구실 소개"
+      },
+      {
+        "key": "f3",
+        "label": "ABOUT THE LAB",
+        "type": "text",
+        "value": "ABOUT THE LAB"
+      },
+      {
+        "key": "f4",
+        "label": "연구실 소개",
+        "type": "text",
+        "value": "연구실 소개"
+      },
+      {
+        "key": "f5",
+        "label": "대전대학교 컴퓨터공학과 AIDIS Lab을 소개합니다.",
+        "type": "text",
+        "value": "대전대학교 컴퓨터공학과 AIDIS Lab을 소개합니다."
+      },
+      {
+        "key": "f6",
+        "label": "OUR NAME",
+        "type": "text",
+        "value": "OUR NAME"
+      },
+      {
+        "key": "f7",
+        "label": "AIDIS에 담긴 의미",
+        "type": "text",
+        "value": "AIDIS에 담긴 의미"
+      },
+      {
+        "key": "f8",
+        "label": "AI-Driven Insights and Data Science",
+        "type": "text",
+        "value": "AI-Driven Insights and Data Science"
+      },
+      {
+        "key": "f9",
+        "label": "소셜 빅데이터 속 관계와 패턴을 분석하고, 데이터를 이해하는 과정이 의사결정에 도움이 되도록 연구합니다.",
+        "type": "text",
+        "value": "소셜 빅데이터 속 관계와 패턴을 분석하고, 데이터를 이해하는 과정이 의사결정에 도움이 되도록 연구합니다."
+      },
+      {
+        "key": "f10",
+        "label": "RESEARCH & DEVELOPMENT",
+        "type": "text",
+        "value": "RESEARCH & DEVELOPMENT"
+      },
+      {
+        "key": "f11",
+        "label": "클라우드 컴퓨팅 분야의 개발과 인공지능 영상 연구를 함께 수행하며, 국방 R&D 연구과제와 응용 개발을 진행합니다.",
+        "type": "text",
+        "value": "클라우드 컴퓨팅 분야의 개발과 인공지능 영상 연구를 함께 수행하며, 국방 R&D 연구과제와 응용 개발을 진행합니다."
+      },
+      {
+        "key": "f12",
+        "label": "데이터 분석 및 인사이트 도출, 인공지능 모델 연구, AI 기반 소셜 플랫폼 개발을 중심으로 연구 결과를 실제 서비스",
+        "type": "text",
+        "value": "데이터 분석 및 인사이트 도출, 인공지능 모델 연구, AI 기반 소셜 플랫폼 개발을 중심으로 연구 결과를 실제 서비스와 기술에 연결합니다."
+      },
+      {
+        "key": "f13",
+        "label": "연구 분야 상세보기 ↗",
+        "type": "text",
+        "value": "연구 분야 상세보기 ↗"
+      },
+      {
+        "key": "f14",
+        "label": "LEARN & BUILD TOGETHER",
+        "type": "text",
+        "value": "LEARN & BUILD TOGETHER"
+      },
+      {
+        "key": "f15",
+        "label": "함께하는 구성원 ↗",
+        "type": "text",
+        "value": "함께하는 구성원 ↗"
+      },
+      {
+        "key": "f16",
+        "label": "VISIT & CONNECT",
+        "type": "text",
+        "value": "VISIT & CONNECT"
+      },
+      {
+        "key": "f17",
+        "label": "연구실을 만나보세요.",
+        "type": "text",
+        "value": "연구실을 만나보세요."
+      },
+      {
+        "key": "f18",
+        "label": "대전대학교 융합과학관 228호",
+        "type": "text",
+        "value": "대전대학교 융합과학관 228호"
+      },
+      {
+        "key": "f19",
+        "label": "↗",
+        "type": "text",
+        "value": "↗"
+      },
+      {
+        "key": "extra20",
+        "label": "AI-Driven Insights",
+        "type": "text",
+        "value": "AI-Driven Insights"
+      },
+      {
+        "key": "extra21",
+        "label": "& Data Science",
+        "type": "text",
+        "value": "& Data Science"
+      },
+      {
+        "key": "extra22",
+        "label": "AIDIS는",
+        "type": "text",
+        "value": "AIDIS는 "
+      },
+      {
+        "key": "extra23",
+        "label": "의 약자입니다. 데이터 과학과 인공지능을 바탕으로 의미 있는 인사이트를 발견한다는 연구 방향을 담고 있습니다.",
+        "type": "text",
+        "value": "의 약자입니다. 데이터 과학과 인공지능을 바탕으로 의미 있는 인사이트를 발견한다는 연구 방향을 담고 있습니다."
+      },
+      {
+        "key": "extra24",
+        "label": "연구와 개발을",
+        "type": "text",
+        "value": "연구와 개발을"
+      },
+      {
+        "key": "extra25",
+        "label": "함께 이어갑니다.",
+        "type": "text",
+        "value": "함께 이어갑니다."
+      },
+      {
+        "key": "extra26",
+        "label": "함께 연구하고,",
+        "type": "text",
+        "value": "함께 연구하고,"
+      },
+      {
+        "key": "extra27",
+        "label": "함께 성장합니다.",
+        "type": "text",
+        "value": "함께 성장합니다."
+      },
+      {
+        "key": "extra28",
+        "label": "연구 관심사를 나누고 프로젝트를 수행하며,",
+        "type": "text",
+        "value": "연구 관심사를 나누고 프로젝트를 수행하며,"
+      },
+      {
+        "key": "extra29",
+        "label": "연구 결과가 실제 서비스와 기술로 이어질 수 있도록 학습하고 실험합니다.",
+        "type": "text",
+        "value": " 연구 결과가 실제 서비스와 기술로 이어질 수 있도록 학습하고 실험합니다."
+      },
+      {
+        "key": "extra30",
+        "label": "연구 참여와 협업에 관심이 있다면",
+        "type": "text",
+        "value": "연구 참여와 협업에 관심이 있다면"
+      },
+      {
+        "key": "extra31",
+        "label": "연구실로 문의해 주세요.",
+        "type": "text",
+        "value": "연구실로 문의해 주세요."
+      },
+      {
+        "key": "extra32",
+        "label": "연구실 문의",
+        "type": "text",
+        "value": "연구실 문의 "
+      }
+    ]
+  },
+  "activities.html": {
+    "title": "활동",
+    "kind": "content",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "ACTIVITIES",
+        "type": "text",
+        "value": "ACTIVITIES"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "활동",
+        "type": "text",
+        "value": "활동"
+      },
+      {
+        "key": "f3",
+        "label": "BUILD · SHARE · GROW",
+        "type": "text",
+        "value": "BUILD · SHARE · GROW"
+      },
+      {
+        "key": "f4",
+        "label": "활동",
+        "type": "text",
+        "value": "활동"
+      },
+      {
+        "key": "f5",
+        "label": "연구실의 새로운 개발, 공모전, 교육과 발표 소식을 전합니다.",
+        "type": "text",
+        "value": "연구실의 새로운 개발, 공모전, 교육과 발표 소식을 전합니다."
+      },
+      {
+        "key": "f6",
+        "label": "관리자 로그인 · 활동 작성",
+        "type": "text",
+        "value": "관리자 로그인 · 활동 작성"
+      },
+      {
+        "key": "f7",
+        "label": "K-PaaS",
+        "type": "text",
+        "value": "K-PaaS"
+      },
+      {
+        "key": "f8",
+        "label": "공모전 · 수상",
+        "type": "text",
+        "value": "공모전 · 수상"
+      },
+      {
+        "key": "f9",
+        "label": "↗",
+        "type": "text",
+        "value": "↗"
+      },
+      {
+        "key": "f10",
+        "label": "졸업한 학부연구생들이 재학 중 수행한 클라우드 플랫폼 개발 활동의 성과입니다.",
+        "type": "text",
+        "value": "졸업한 학부연구생들이 재학 중 수행한 클라우드 플랫폼 개발 활동의 성과입니다."
+      },
+      {
+        "key": "f11",
+        "label": "상금 200만원",
+        "type": "text",
+        "value": "상금 200만원"
+      },
+      {
+        "key": "f12",
+        "label": "새 활동을 보려면 JavaScript를 켜 주세요.",
+        "type": "text",
+        "value": "새 활동을 보려면 JavaScript를 켜 주세요."
+      },
+      {
+        "key": "extra13",
+        "label": "K-PaaS 공모전 수상",
+        "type": "text",
+        "value": "K-PaaS 공모전 수상 "
+      }
+    ]
+  },
+  "activity-kpaas.html": {
+    "title": "K-PaaS 공모전 수상",
+    "kind": "content",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "ACTIVITIES",
+        "type": "text",
+        "value": "ACTIVITIES"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "활동 상세",
+        "type": "text",
+        "value": "활동 상세"
+      },
+      {
+        "key": "f3",
+        "label": "← 활동 목록",
+        "type": "text",
+        "value": "← 활동 목록"
+      },
+      {
+        "key": "f4",
+        "label": "공모전 · 수상",
+        "type": "text",
+        "value": "공모전 · 수상"
+      },
+      {
+        "key": "f5",
+        "label": "K-PaaS 공모전 수상",
+        "type": "text",
+        "value": "K-PaaS 공모전 수상"
+      },
+      {
+        "key": "f6",
+        "label": "클라우드 플랫폼 개발로 이어진 학부연구생들의 성과",
+        "type": "text",
+        "value": "클라우드 플랫폼 개발로 이어진 학부연구생들의 성과"
+      },
+      {
+        "key": "f7",
+        "label": "활동 분야 · 클라우드 플랫폼 개발",
+        "type": "text",
+        "value": "클라우드 플랫폼 개발"
+      },
+      {
+        "key": "f8",
+        "label": "참여 · 졸업한 학부연구생들의 재학 중 활동",
+        "type": "text",
+        "value": "졸업한 학부연구생들의 재학 중 활동"
+      },
+      {
+        "key": "f9",
+        "label": "성과 · K-PaaS 공모전 수상 · 상금 200만원",
+        "type": "text",
+        "value": "K-PaaS 공모전 수상 · 상금 200만원"
+      },
+      {
+        "key": "f10",
+        "label": "활동 소개",
+        "type": "text",
+        "value": "활동 소개"
+      },
+      {
+        "key": "f11",
+        "label": "AIDIS Lab 학부연구생들이 재학 중 수행한 클라우드 플랫폼 개발 활동으로 K-PaaS 공모전에서 수상했습니다.",
+        "type": "text",
+        "value": "AIDIS Lab 학부연구생들이 재학 중 수행한 클라우드 플랫폼 개발 활동으로 K-PaaS 공모전에서 수상했습니다."
+      },
+      {
+        "key": "f12",
+        "label": "학생들이 개발 경험을 쌓고, 결과물을 공모전에서 선보인 활동 기록입니다.",
+        "type": "text",
+        "value": "학생들이 개발 경험을 쌓고, 결과물을 공모전에서 선보인 활동 기록입니다."
+      },
+      {
+        "key": "f13",
+        "label": "연구실의 다른 개발과 활동도 살펴보세요.",
+        "type": "text",
+        "value": "연구실의 다른 개발과 활동도 살펴보세요."
+      },
+      {
+        "key": "f14",
+        "label": "활동 전체 보기 ↗",
+        "type": "text",
+        "value": "활동 전체 보기 ↗"
+      }
+    ]
+  },
+  "contact.html": {
+    "title": "연구실 문의",
+    "kind": "content",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "INTRODUCTION",
+        "type": "text",
+        "value": "INTRODUCTION"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "위치 및 문의",
+        "type": "text",
+        "value": "위치 및 문의"
+      },
+      {
+        "key": "f3",
+        "label": "CONTACT",
+        "type": "text",
+        "value": "CONTACT"
+      },
+      {
+        "key": "f4",
+        "label": "연구실 문의",
+        "type": "text",
+        "value": "연구실 문의"
+      },
+      {
+        "key": "f5",
+        "label": "LOCATION",
+        "type": "text",
+        "value": "LOCATION"
+      },
+      {
+        "key": "f6",
+        "label": "대전대학교 융합과학관 228호",
+        "type": "text",
+        "value": "대전대학교 융합과학관 228호"
+      },
+      {
+        "key": "f7",
+        "label": "PROFESSOR",
+        "type": "text",
+        "value": "PROFESSOR"
+      },
+      {
+        "key": "f8",
+        "label": "pgw4050@dju.kr",
+        "type": "text",
+        "value": "pgw4050@dju.kr"
+      },
+      {
+        "key": "f9",
+        "label": "TEL",
+        "type": "text",
+        "value": "TEL"
+      },
+      {
+        "key": "f10",
+        "label": "042-280-2024",
+        "type": "text",
+        "value": "042-280-2024"
+      },
+      {
+        "key": "f11",
+        "label": "LAB LEADER",
+        "type": "text",
+        "value": "LAB LEADER"
+      },
+      {
+        "key": "f12",
+        "label": "pminion3203@gmail.com",
+        "type": "text",
+        "value": "pminion3203@gmail.com"
+      },
+      {
+        "key": "extra13",
+        "label": "방문, 연구 및 협업에 관한 문의를 기다립니다.",
+        "type": "text",
+        "value": "방문, 연구 및 협업에 관한 문의를 기다립니다."
+      },
+      {
+        "key": "extra14",
+        "label": "랩장 또는 지도교수를 통해 편하게 연락해 주세요.",
+        "type": "text",
+        "value": "랩장 또는 지도교수를 통해 편하게 연락해 주세요."
+      }
+    ]
+  },
+  "index.html": {
+    "title": "데이터에서 발견하고, 함께 만들어갑니다.",
+    "kind": "content",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "AIDIS LAB · 대전대학교",
+        "type": "text",
+        "value": "AIDIS LAB · 대전대학교"
+      },
+      {
+        "key": "f1",
+        "label": "↗",
+        "type": "text",
+        "value": "↗"
+      },
+      {
+        "key": "f2",
+        "label": "RESEARCH",
+        "type": "text",
+        "value": "RESEARCH"
+      },
+      {
+        "key": "f3",
+        "label": "데이터 분석 · 인공지능 · 소셜 플랫폼",
+        "type": "text",
+        "value": "데이터 분석 · 인공지능 · 소셜 플랫폼"
+      },
+      {
+        "key": "f4",
+        "label": "↗",
+        "type": "text",
+        "value": "↗"
+      },
+      {
+        "key": "f5",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f6",
+        "label": "우리 연구실의 구성원을 만나보세요.",
+        "type": "text",
+        "value": "우리 연구실의 구성원을 만나보세요."
+      },
+      {
+        "key": "f7",
+        "label": "↗",
+        "type": "text",
+        "value": "↗"
+      },
+      {
+        "key": "f8",
+        "label": "SPOTLIGHT · 공모전 수상",
+        "type": "text",
+        "value": "SPOTLIGHT · 공모전 수상"
+      },
+      {
+        "key": "f9",
+        "label": "✦",
+        "type": "text",
+        "value": "✦"
+      },
+      {
+        "key": "f10",
+        "label": "K-PaaS 공모전 수상 이야기",
+        "type": "text",
+        "value": "K-PaaS 공모전 수상 이야기"
+      },
+      {
+        "key": "f11",
+        "label": "↗",
+        "type": "text",
+        "value": "↗"
+      },
+      {
+        "key": "f12",
+        "label": "LAB ACTIVITIES",
+        "type": "text",
+        "value": "LAB ACTIVITIES"
+      },
+      {
+        "key": "f13",
+        "label": "+",
+        "type": "text",
+        "value": "+"
+      },
+      {
+        "key": "f14",
+        "label": "개발부터 공모전·교육까지",
+        "type": "text",
+        "value": "개발부터 공모전·교육까지"
+      },
+      {
+        "key": "f15",
+        "label": "↗",
+        "type": "text",
+        "value": "↗"
+      },
+      {
+        "key": "f16",
+        "label": "PROFESSOR",
+        "type": "text",
+        "value": "PROFESSOR"
+      },
+      {
+        "key": "f17",
+        "label": "AI",
+        "type": "text",
+        "value": "AI"
+      },
+      {
+        "key": "f18",
+        "label": "DATA",
+        "type": "text",
+        "value": "DATA"
+      },
+      {
+        "key": "f19",
+        "label": "NETWORK",
+        "type": "text",
+        "value": "NETWORK"
+      },
+      {
+        "key": "f20",
+        "label": "박건우 교수의 연구와 이력",
+        "type": "text",
+        "value": "박건우 교수의 연구와 이력"
+      },
+      {
+        "key": "f21",
+        "label": "↗",
+        "type": "text",
+        "value": "↗"
+      },
+      {
+        "key": "f22",
+        "label": "Notice & News",
+        "type": "text",
+        "value": "Notice & News"
+      },
+      {
+        "key": "f23",
+        "label": "수상",
+        "type": "text",
+        "value": "수상"
+      },
+      {
+        "key": "f24",
+        "label": "K-PaaS 공모전 수상",
+        "type": "text",
+        "value": "K-PaaS 공모전 수상"
+      },
+      {
+        "key": "f25",
+        "label": "↗",
+        "type": "text",
+        "value": "↗"
+      },
+      {
+        "key": "f26",
+        "label": "Calendar",
+        "type": "text",
+        "value": "Calendar"
+      },
+      {
+        "key": "f27",
+        "label": "등록된 예정 일정이 없습니다.",
+        "type": "text",
+        "value": "등록된 예정 일정이 없습니다."
+      },
+      {
+        "key": "extra28",
+        "label": "데이터에서 발견하고,",
+        "type": "text",
+        "value": "데이터에서 발견하고,"
+      },
+      {
+        "key": "extra29",
+        "label": "함께 만들어갑니다.",
+        "type": "text",
+        "value": "함께 만들어갑니다."
+      },
+      {
+        "key": "extra30",
+        "label": "연구실 소개",
+        "type": "text",
+        "value": "연구실 소개 "
+      },
+      {
+        "key": "extra31",
+        "label": "데이터 속에는",
+        "type": "text",
+        "value": "데이터 속에는"
+      },
+      {
+        "key": "extra32",
+        "label": "어떤 가능성이 있을까요?",
+        "type": "text",
+        "value": "어떤 가능성이 있을까요?"
+      },
+      {
+        "key": "extra33",
+        "label": "서로 다른 관심,",
+        "type": "text",
+        "value": "서로 다른 관심,"
+      },
+      {
+        "key": "extra34",
+        "label": "함께하는 연구.",
+        "type": "text",
+        "value": "함께하는 연구."
+      },
+      {
+        "key": "extra35",
+        "label": "아이디어가",
+        "type": "text",
+        "value": "아이디어가"
+      },
+      {
+        "key": "extra36",
+        "label": "성과가 되기까지.",
+        "type": "text",
+        "value": "성과가 되기까지."
+      },
+      {
+        "key": "extra37",
+        "label": "배우고, 만들고,",
+        "type": "text",
+        "value": "배우고, 만들고,"
+      },
+      {
+        "key": "extra38",
+        "label": "나눕니다.",
+        "type": "text",
+        "value": "나눕니다."
+      },
+      {
+        "key": "extra39",
+        "label": "연구의 방향을",
+        "type": "text",
+        "value": "연구의 방향을"
+      },
+      {
+        "key": "extra40",
+        "label": "함께 찾습니다.",
+        "type": "text",
+        "value": "함께 찾습니다."
+      }
+    ]
+  },
+  "member-ahn-chiwoo.html": {
+    "title": "안치우",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "f3",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "f4",
+        "label": "안치우 프로필 사진",
+        "type": "image",
+        "value": "assets/members/ahn-chiwoo.jpg"
+      },
+      {
+        "key": "f5",
+        "label": "재학생",
+        "type": "text",
+        "value": "재학생"
+      },
+      {
+        "key": "f6",
+        "label": "안치우",
+        "type": "text",
+        "value": "안치우"
+      },
+      {
+        "key": "f7",
+        "label": "학적 · 컴퓨터공학과 3학년",
+        "type": "text",
+        "value": "컴퓨터공학과 3학년"
+      },
+      {
+        "key": "f8",
+        "label": "기수 · 1기",
+        "type": "text",
+        "value": "1기"
+      },
+      {
+        "key": "f9",
+        "label": "소속 · 대전대학교 컴퓨터공학과·교직과정 / AIDIS Lab / 일영 ",
+        "type": "text",
+        "value": "대전대학교 컴퓨터공학과·교직과정 / AIDIS Lab / 일영 / GDGoC DJU"
+      },
+      {
+        "key": "f10",
+        "label": "이메일 · pminion3203@gmail.com",
+        "type": "text",
+        "value": "pminion3203@gmail.com"
+      },
+      {
+        "key": "f10-href",
+        "label": "이메일 · pminion3203@gmail.com 링크",
+        "type": "link",
+        "value": "mailto:pminion3203@gmail.com"
+      },
+      {
+        "key": "f11",
+        "label": "GitHub · ClCl616 ↗",
+        "type": "text",
+        "value": "ClCl616 ↗"
+      },
+      {
+        "key": "f11-href",
+        "label": "GitHub · ClCl616 ↗ 링크",
+        "type": "link",
+        "value": "https://github.com/ClCl616"
+      },
+      {
+        "key": "f12",
+        "label": "기술 스택 · Python · Java · C · C++ · JavaScrip",
+        "type": "text",
+        "value": "Python · Java · C · C++ · JavaScript · HTML · CSS · React · Vite · Flutter · Firebase · Git"
+      },
+      {
+        "key": "f13",
+        "label": "관심 분야 · 중등 정보교육 · 프로그래밍·컴퓨팅 사고력 교육 · 프로젝트 기",
+        "type": "text",
+        "value": "중등 정보교육 · 프로그래밍·컴퓨팅 사고력 교육 · 프로젝트 기반 SW 교육 · 웹·앱 개발 · AI·디지털 교육 도구 활용"
+      },
+      {
+        "key": "f14",
+        "label": "EXPERIENCE",
+        "type": "text",
+        "value": "EXPERIENCE"
+      },
+      {
+        "key": "f15",
+        "label": "경력·활동",
+        "type": "text",
+        "value": "경력·활동"
+      },
+      {
+        "key": "f16",
+        "label": "2026년 기준 진행 중",
+        "type": "text",
+        "value": "2026년 기준 진행 중"
+      },
+      {
+        "key": "f17",
+        "label": "컴퓨터공학 전공 및 교직과정 이수",
+        "type": "text",
+        "value": "컴퓨터공학 전공 및 교직과정 이수"
+      },
+      {
+        "key": "f18",
+        "label": "담당 역할 · 정보·컴퓨터 교과 예비교사",
+        "type": "text",
+        "value": "정보·컴퓨터 교과 예비교사"
+      },
+      {
+        "key": "f19",
+        "label": "주요 내용·성과 · 컴퓨터공학 전공과 교직과정을 병행하며 교과 전문성과 교육 역량을",
+        "type": "text",
+        "value": "컴퓨터공학 전공과 교직과정을 병행하며 교과 전문성과 교육 역량을 기르고 있습니다. 디지털교육, 정보·컴퓨터교과교재연구및지도법 등 관련 학습을 바탕으로 개발 경험을 수업과 실습 활동에 연결하는 방법을 탐구하고 있습니다."
+      },
+      {
+        "key": "f20",
+        "label": "2025.09 - 현재",
+        "type": "text",
+        "value": "2025.09 - 현재"
+      },
+      {
+        "key": "f21",
+        "label": "대전대학교 개발 동아리 일영 운영",
+        "type": "text",
+        "value": "대전대학교 개발 동아리 일영 운영"
+      },
+      {
+        "key": "f22",
+        "label": "역할 이력 · 회장 2025.09 - 2026.08 · 1년 임기 종료 후 현",
+        "type": "text",
+        "value": "회장 2025.09 - 2026.08 · 1년 임기 종료 후 현재 운영진으로 참여"
+      },
+      {
+        "key": "f23",
+        "label": "담당 역할 · 운영진 · 전 회장",
+        "type": "text",
+        "value": "운영진 · 전 회장"
+      },
+      {
+        "key": "f24",
+        "label": "주요 내용·성과 · 동아리 운영과 정규활동을 주도하고 구성원의 개발 학습과 팀 프로",
+        "type": "text",
+        "value": "동아리 운영과 정규활동을 주도하고 구성원의 개발 학습과 팀 프로젝트를 지원했습니다. Project SOLVE 활동을 진행하며 팀별 활동 내용과 후속 과제를 공유하는 협업 환경을 조성했습니다. 1년의 임기를 마친 뒤 운영진으로 합류하여 운영을 이어가고 있습니다."
+      },
+      {
+        "key": "f25",
+        "label": "2025.09 - 현재",
+        "type": "text",
+        "value": "2025.09 - 현재"
+      },
+      {
+        "key": "f26",
+        "label": "Google Developer Groups on Campus DJU 운영",
+        "type": "text",
+        "value": "Google Developer Groups on Campus DJU 운영"
+      },
+      {
+        "key": "f27",
+        "label": "역할 이력 · Organizer 2025.09 - 2026.08 · 1년 임기",
+        "type": "text",
+        "value": "Organizer 2025.09 - 2026.08 · 1년 임기 종료 후 현재 운영진으로 참여"
+      },
+      {
+        "key": "f28",
+        "label": "담당 역할 · 운영진 · 전 Organizer",
+        "type": "text",
+        "value": "운영진 · 전 Organizer"
+      },
+      {
+        "key": "f29",
+        "label": "주요 내용·성과 · 대학 개발자 커뮤니티의 기술 학습과 교류를 위한 활동을 운영했습",
+        "type": "text",
+        "value": "대학 개발자 커뮤니티의 기술 학습과 교류를 위한 활동을 운영했습니다. Git/GitHub 오픈세션을 기획·총괄하고, Google Cloud Study Jam 등 외부 학습 기회를 구성원에게 안내했습니다. 1년의 임기를 마친 뒤 운영진으로 합류하여 운영을 이어가고 있습니다."
+      },
+      {
+        "key": "f30",
+        "label": "현재 활동 중",
+        "type": "text",
+        "value": "현재 활동 중"
+      },
+      {
+        "key": "f31",
+        "label": "AIDIS Lab 연구실",
+        "type": "text",
+        "value": "AIDIS Lab 연구실"
+      },
+      {
+        "key": "f32",
+        "label": "담당 역할 · 랩장",
+        "type": "text",
+        "value": "랩장"
+      },
+      {
+        "key": "f33",
+        "label": "주요 내용·성과 · AIDIS Lab 랩장으로 활동하며 컴퓨터공학 전공 탐구를 이어",
+        "type": "text",
+        "value": "AIDIS Lab 랩장으로 활동하며 컴퓨터공학 전공 탐구를 이어가고 있습니다."
+      },
+      {
+        "key": "f34",
+        "label": "2026.04 - 2026.06",
+        "type": "text",
+        "value": "2026.04 - 2026.06"
+      },
+      {
+        "key": "f35",
+        "label": "2026 상반기 Google Cloud Study Jam",
+        "type": "text",
+        "value": "2026 상반기 Google Cloud Study Jam"
+      },
+      {
+        "key": "f36",
+        "label": "담당 역할 · 참가자",
+        "type": "text",
+        "value": "참가자"
+      },
+      {
+        "key": "f37",
+        "label": "주요 내용·성과 · Google Cloud Study Jam에 참여했으며, 개인 학",
+        "type": "text",
+        "value": "Google Cloud Study Jam에 참여했으며, 개인 학습 관리 기록상 수강을 완료했습니다. 신청 당시 AI 기초·생성형 AI·Responsible AI와 Gemini·Google Workspace 활용을 학습 희망 분야로 선택했습니다. 공식 과정별 수료 및 취득 배지는 별도 확인이 필요합니다."
+      },
+      {
+        "key": "f38",
+        "label": "2025.11",
+        "type": "text",
+        "value": "2025.11"
+      },
+      {
+        "key": "f39",
+        "label": "GDGoC DJU Git/GitHub 오픈세션 「ADD, COMMIT, PUSH」",
+        "type": "text",
+        "value": "GDGoC DJU Git/GitHub 오픈세션 「ADD, COMMIT, PUSH」"
+      },
+      {
+        "key": "f40",
+        "label": "담당 역할 · 교육 전체 기획 및 총괄",
+        "type": "text",
+        "value": "교육 전체 기획 및 총괄"
+      },
+      {
+        "key": "f41",
+        "label": "주요 내용·성과 · Git/GitHub 입문자를 대상으로 기초 개념·기본 명령어부터",
+        "type": "text",
+        "value": "Git/GitHub 입문자를 대상으로 기초 개념·기본 명령어부터 실습과 협업 전략으로 이어지는 교육을 기획·총괄했습니다. 개발 도구에 대한 지식을 단계적인 학습 활동으로 구성한 교육 운영 경험입니다."
+      },
+      {
+        "key": "f42",
+        "label": "2025.07",
+        "type": "text",
+        "value": "2025.07"
+      },
+      {
+        "key": "f43",
+        "label": "ZeroWaste 앱 개발 — 오픈소스 개발자 대회 팀 프로젝트",
+        "type": "text",
+        "value": "ZeroWaste 앱 개발 — 오픈소스 개발자 대회 팀 프로젝트"
+      },
+      {
+        "key": "f44",
+        "label": "담당 역할 · 앱 디자인·개발, KakaoMap API 연동, 백엔드 병합, ",
+        "type": "text",
+        "value": "앱 디자인·개발, KakaoMap API 연동, 백엔드 병합, Git/GitHub 관리 및 배포"
+      },
+      {
+        "key": "f45",
+        "label": "주요 내용·성과 · Firebase·Flutter 등을 활용한 앱 개발에 참여하고 ",
+        "type": "text",
+        "value": "Firebase·Flutter 등을 활용한 앱 개발에 참여하고 지도 API 연동, 백엔드 통합, 배포를 수행했습니다. 팀 프로젝트에서 서비스 구현과 협업 경험을 쌓았습니다."
+      },
+      {
+        "key": "f46",
+        "label": "2025",
+        "type": "text",
+        "value": "2025"
+      },
+      {
+        "key": "f47",
+        "label": "동아리 관리 플랫폼 팀 프로젝트",
+        "type": "text",
+        "value": "동아리 관리 플랫폼 팀 프로젝트"
+      },
+      {
+        "key": "f48",
+        "label": "담당 역할 · 웹 디자인 및 프론트엔드 개발, 프론트엔드·백엔드 병합 주도",
+        "type": "text",
+        "value": "웹 디자인 및 프론트엔드 개발, 프론트엔드·백엔드 병합 주도"
+      },
+      {
+        "key": "f49",
+        "label": "주요 내용·성과 · React·Vite 기반 플랫폼의 화면을 설계·구현하고 백엔드 ",
+        "type": "text",
+        "value": "React·Vite 기반 플랫폼의 화면을 설계·구현하고 백엔드 연동을 주도했습니다. Git/GitHub를 활용해 코드를 관리하고 팀 단위 개발을 수행했습니다."
+      },
+      {
+        "key": "f50",
+        "label": "2022",
+        "type": "text",
+        "value": "2022"
+      },
+      {
+        "key": "f51",
+        "label": "자율주행 자동차 코딩 경진대회",
+        "type": "text",
+        "value": "자율주행 자동차 코딩 경진대회"
+      },
+      {
+        "key": "f52",
+        "label": "담당 역할 · 팀 프로젝트 참여",
+        "type": "text",
+        "value": "팀 프로젝트 참여"
+      },
+      {
+        "key": "f53",
+        "label": "주요 내용·성과 · 라인트레이서와 블록코딩을 활용해 지정 경로 주행·탈출 및 주행 ",
+        "type": "text",
+        "value": "라인트레이서와 블록코딩을 활용해 지정 경로 주행·탈출 및 주행 시간 단축 과제를 수행하고 우수상을 수상했습니다."
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "photoKey": "f4",
+    "nameKey": "f6",
+    "factKeys": {
+      "학적": "f7",
+      "기수": "f8",
+      "소속": "f9",
+      "이메일": "f10",
+      "GitHub": "f11",
+      "기술 스택": "f12",
+      "관심 분야": "f13"
+    }
+  },
+  "member-choi-seoyeong.html": {
+    "title": "최서영",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "f3",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "f4",
+        "label": "프로필 사진 미등록",
+        "type": "image",
+        "value": "assets/member-placeholder.svg"
+      },
+      {
+        "key": "f5",
+        "label": "재학생",
+        "type": "text",
+        "value": "재학생"
+      },
+      {
+        "key": "f6",
+        "label": "최서영",
+        "type": "text",
+        "value": "최서영"
+      },
+      {
+        "key": "f7",
+        "label": "학적 · 컴퓨터공학과 2학년",
+        "type": "text",
+        "value": "컴퓨터공학과 2학년"
+      },
+      {
+        "key": "f8",
+        "label": "기수 · 1기",
+        "type": "text",
+        "value": "1기"
+      },
+      {
+        "key": "f9",
+        "label": "소속 · AIDIS Lab",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f10",
+        "label": "이메일 · 01075135167r@gmail.com",
+        "type": "text",
+        "value": "01075135167r@gmail.com"
+      },
+      {
+        "key": "f10-href",
+        "label": "이메일 · 01075135167r@gmail.com 링크",
+        "type": "link",
+        "value": "mailto:01075135167r@gmail.com"
+      },
+      {
+        "key": "f11",
+        "label": "GitHub · kirara883 ↗",
+        "type": "text",
+        "value": "kirara883 ↗"
+      },
+      {
+        "key": "f11-href",
+        "label": "GitHub · kirara883 ↗ 링크",
+        "type": "link",
+        "value": "https://github.com/kirara883"
+      },
+      {
+        "key": "f12",
+        "label": "기술 스택 · C++ · C#",
+        "type": "text",
+        "value": "C++ · C#"
+      },
+      {
+        "key": "f13",
+        "label": "관심 분야 · 게임 개발",
+        "type": "text",
+        "value": "게임 개발"
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "photoKey": "f4",
+    "nameKey": "f6",
+    "factKeys": {
+      "학적": "f7",
+      "기수": "f8",
+      "소속": "f9",
+      "이메일": "f10",
+      "GitHub": "f11",
+      "기술 스택": "f12",
+      "관심 분야": "f13"
+    }
+  },
+  "member-choi-suyeon.html": {
+    "title": "최수연",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "f3",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "f4",
+        "label": "최수연 프로필 사진",
+        "type": "image",
+        "value": "assets/members/choi-suyeon.png"
+      },
+      {
+        "key": "f5",
+        "label": "재학생",
+        "type": "text",
+        "value": "재학생"
+      },
+      {
+        "key": "f6",
+        "label": "최수연",
+        "type": "text",
+        "value": "최수연"
+      },
+      {
+        "key": "f7",
+        "label": "학적 · 컴퓨터공학과 2학년",
+        "type": "text",
+        "value": "컴퓨터공학과 2학년"
+      },
+      {
+        "key": "f8",
+        "label": "기수 · 1기",
+        "type": "text",
+        "value": "1기"
+      },
+      {
+        "key": "f9",
+        "label": "소속 · AIDIS Lab",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f10",
+        "label": "이메일 · a01053347126@gmail.com",
+        "type": "text",
+        "value": "a01053347126@gmail.com"
+      },
+      {
+        "key": "f10-href",
+        "label": "이메일 · a01053347126@gmail.com 링크",
+        "type": "link",
+        "value": "mailto:a01053347126@gmail.com"
+      },
+      {
+        "key": "f11",
+        "label": "GitHub · —",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f12",
+        "label": "기술 스택 · C++ · Python · Java",
+        "type": "text",
+        "value": "C++ · Python · Java"
+      },
+      {
+        "key": "f13",
+        "label": "관심 분야 · 소프트웨어 개발 · 인공지능 및 데이터 분석",
+        "type": "text",
+        "value": "소프트웨어 개발 · 인공지능 및 데이터 분석"
+      },
+      {
+        "key": "f14",
+        "label": "EXPERIENCE",
+        "type": "text",
+        "value": "EXPERIENCE"
+      },
+      {
+        "key": "f15",
+        "label": "경력·활동",
+        "type": "text",
+        "value": "경력·활동"
+      },
+      {
+        "key": "f16",
+        "label": "대학 연구실 활동",
+        "type": "text",
+        "value": "대학 연구실 활동"
+      },
+      {
+        "key": "f17",
+        "label": "담당 역할 · 연구 및 프로젝트 참여",
+        "type": "text",
+        "value": "연구 및 프로젝트 참여"
+      },
+      {
+        "key": "f18",
+        "label": "주요 내용·성과 · 전공과 관련된 연구 및 프로젝트에 참여하며 프로그래밍 및 전공 ",
+        "type": "text",
+        "value": "전공과 관련된 연구 및 프로젝트에 참여하며 프로그래밍 및 전공 역량을 향상함."
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "photoKey": "f4",
+    "nameKey": "f6",
+    "factKeys": {
+      "학적": "f7",
+      "기수": "f8",
+      "소속": "f9",
+      "이메일": "f10",
+      "GitHub": "f11",
+      "기술 스택": "f12",
+      "관심 분야": "f13"
+    }
+  },
+  "member-jeong-jaehyeong.html": {
+    "title": "정재형",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "f3",
+        "label": "← 졸업생 목록",
+        "type": "text",
+        "value": "← 졸업생 목록"
+      },
+      {
+        "key": "f4",
+        "label": "프로필 사진 미등록",
+        "type": "image",
+        "value": "assets/member-placeholder-male.svg"
+      },
+      {
+        "key": "f5",
+        "label": "졸업생",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f6",
+        "label": "정재형",
+        "type": "text",
+        "value": "정재형"
+      },
+      {
+        "key": "f7",
+        "label": "학적 · 2026 졸업",
+        "type": "text",
+        "value": "2026 졸업"
+      },
+      {
+        "key": "f8",
+        "label": "기수 · 0기",
+        "type": "text",
+        "value": "0기"
+      },
+      {
+        "key": "f9",
+        "label": "소속 · AIDIS Lab",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f10",
+        "label": "이메일 · ash_hyeong0129@icloud.com",
+        "type": "text",
+        "value": "ash_hyeong0129@icloud.com"
+      },
+      {
+        "key": "f10-href",
+        "label": "이메일 · ash_hyeong0129@icloud.com 링크",
+        "type": "link",
+        "value": "mailto:ash_hyeong0129@icloud.com"
+      },
+      {
+        "key": "f11",
+        "label": "GitHub · Chemuchi ↗",
+        "type": "text",
+        "value": "Chemuchi ↗"
+      },
+      {
+        "key": "f11-href",
+        "label": "GitHub · Chemuchi ↗ 링크",
+        "type": "link",
+        "value": "https://github.com/Chemuchi"
+      },
+      {
+        "key": "f12",
+        "label": "기술 스택 · Go · Terraform · AWS · Docker · Kub",
+        "type": "text",
+        "value": "Go · Terraform · AWS · Docker · Kubernetes"
+      },
+      {
+        "key": "f13",
+        "label": "관심 분야 · 백엔드 · CICD · 클라우드 인프라",
+        "type": "text",
+        "value": "백엔드 · CICD · 클라우드 인프라"
+      },
+      {
+        "key": "f14",
+        "label": "EXPERIENCE",
+        "type": "text",
+        "value": "EXPERIENCE"
+      },
+      {
+        "key": "f15",
+        "label": "경력·활동",
+        "type": "text",
+        "value": "경력·활동"
+      },
+      {
+        "key": "f16",
+        "label": "2026.02 - 2026.04",
+        "type": "text",
+        "value": "2026.02 - 2026.04"
+      },
+      {
+        "key": "f17",
+        "label": "KT TechUp 부트캠프 실무 프로젝트",
+        "type": "text",
+        "value": "KT TechUp 부트캠프 실무 프로젝트"
+      },
+      {
+        "key": "f18",
+        "label": "팀명 · 구름공방",
+        "type": "text",
+        "value": "구름공방"
+      },
+      {
+        "key": "f19",
+        "label": "담당 역할 · AWS 세팅 및 관리(Terraform), 서비스 도커라이징 및",
+        "type": "text",
+        "value": "AWS 세팅 및 관리(Terraform), 서비스 도커라이징 및 클라우드 배포"
+      },
+      {
+        "key": "f20",
+        "label": "주요 내용·성과 · AI 기반 매크로 방지 야구티켓팅 플랫폼 · 대상",
+        "type": "text",
+        "value": "AI 기반 매크로 방지 야구티켓팅 플랫폼 · 대상"
+      },
+      {
+        "key": "f21",
+        "label": "GitHub · 구름공방 ↗",
+        "type": "text",
+        "value": "구름공방 ↗"
+      },
+      {
+        "key": "f21-href",
+        "label": "GitHub · 구름공방 ↗ 링크",
+        "type": "link",
+        "value": "https://github.com/goorm-gongbang"
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "photoKey": "f4",
+    "nameKey": "f6",
+    "factKeys": {
+      "학적": "f7",
+      "기수": "f8",
+      "소속": "f9",
+      "이메일": "f10",
+      "GitHub": "f11",
+      "기술 스택": "f12",
+      "관심 분야": "f13"
+    }
+  },
+  "member-jeong-seonju.html": {
+    "title": "정선주",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "f3",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "f4",
+        "label": "정선주 프로필 사진",
+        "type": "image",
+        "value": "assets/members/jeong-seonju.png"
+      },
+      {
+        "key": "f5",
+        "label": "재학생",
+        "type": "text",
+        "value": "재학생"
+      },
+      {
+        "key": "f6",
+        "label": "정선주",
+        "type": "text",
+        "value": "정선주"
+      },
+      {
+        "key": "f7",
+        "label": "학적 · 컴퓨터공학과 3학년",
+        "type": "text",
+        "value": "컴퓨터공학과 3학년"
+      },
+      {
+        "key": "f8",
+        "label": "기수 · 1기",
+        "type": "text",
+        "value": "1기"
+      },
+      {
+        "key": "f9",
+        "label": "소속 · AIDIS Lab",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f10",
+        "label": "이메일 · samsayeo@gmail.com",
+        "type": "text",
+        "value": "samsayeo@gmail.com"
+      },
+      {
+        "key": "f10-href",
+        "label": "이메일 · samsayeo@gmail.com 링크",
+        "type": "link",
+        "value": "mailto:samsayeo@gmail.com"
+      },
+      {
+        "key": "f11",
+        "label": "GitHub · jsj03529 ↗",
+        "type": "text",
+        "value": "jsj03529 ↗"
+      },
+      {
+        "key": "f11-href",
+        "label": "GitHub · jsj03529 ↗ 링크",
+        "type": "link",
+        "value": "https://github.com/jsj03529"
+      },
+      {
+        "key": "f12",
+        "label": "기술 스택 · React · Java · Spring Boot · Node.j",
+        "type": "text",
+        "value": "React · Java · Spring Boot · Node.js · Python · MySQL · Supabase"
+      },
+      {
+        "key": "f13",
+        "label": "관심 분야 · RAG · 앱 개발 · 백엔드",
+        "type": "text",
+        "value": "RAG · 앱 개발 · 백엔드"
+      },
+      {
+        "key": "f14",
+        "label": "EXPERIENCE",
+        "type": "text",
+        "value": "EXPERIENCE"
+      },
+      {
+        "key": "f15",
+        "label": "경력·활동",
+        "type": "text",
+        "value": "경력·활동"
+      },
+      {
+        "key": "f16",
+        "label": "2026.07 - 현재",
+        "type": "text",
+        "value": "2026.07 - 현재"
+      },
+      {
+        "key": "f17",
+        "label": "대전대학교 한방병원 챗봇 개발",
+        "type": "text",
+        "value": "대전대학교 한방병원 챗봇 개발"
+      },
+      {
+        "key": "f18",
+        "label": "담당 역할 · 데이터 전처리, LLM 모델 응답 성능 개선",
+        "type": "text",
+        "value": "데이터 전처리, LLM 모델 응답 성능 개선"
+      },
+      {
+        "key": "f19",
+        "label": "2026.06",
+        "type": "text",
+        "value": "2026.06"
+      },
+      {
+        "key": "f20",
+        "label": "국방 IT 활용 교육",
+        "type": "text",
+        "value": "국방 IT 활용 교육"
+      },
+      {
+        "key": "f21",
+        "label": "담당 역할 · 군 로봇에 활용 가능한 파지 입력 센서 회로 설계·개발 교육 참",
+        "type": "text",
+        "value": "군 로봇에 활용 가능한 파지 입력 센서 회로 설계·개발 교육 참여"
+      },
+      {
+        "key": "f22",
+        "label": "주요 내용·성과 · 우수상(3위).",
+        "type": "text",
+        "value": "우수상(3위)."
+      },
+      {
+        "key": "f23",
+        "label": "2026.05",
+        "type": "text",
+        "value": "2026.05"
+      },
+      {
+        "key": "f24",
+        "label": "지능IoT 해커톤",
+        "type": "text",
+        "value": "지능IoT 해커톤"
+      },
+      {
+        "key": "f25",
+        "label": "담당 역할 · 데이터 분석, 모델 튜닝",
+        "type": "text",
+        "value": "데이터 분석, 모델 튜닝"
+      },
+      {
+        "key": "f26",
+        "label": "주요 내용·성과 · 우수상(3위).",
+        "type": "text",
+        "value": "우수상(3위)."
+      },
+      {
+        "key": "f27",
+        "label": "2024.11",
+        "type": "text",
+        "value": "2024.11"
+      },
+      {
+        "key": "f28",
+        "label": "라인 트레이서 자율주행대회",
+        "type": "text",
+        "value": "라인 트레이서 자율주행대회"
+      },
+      {
+        "key": "f29",
+        "label": "담당 역할 · 주행 성능 개선, 코딩",
+        "type": "text",
+        "value": "주행 성능 개선, 코딩"
+      },
+      {
+        "key": "f30",
+        "label": "주요 내용·성과 · 장려상(6위).",
+        "type": "text",
+        "value": "장려상(6위)."
+      },
+      {
+        "key": "f31",
+        "label": "QUALIFICATIONS",
+        "type": "text",
+        "value": "QUALIFICATIONS"
+      },
+      {
+        "key": "f32",
+        "label": "자격증",
+        "type": "text",
+        "value": "자격증"
+      },
+      {
+        "key": "f33",
+        "label": "SQLD · 정보처리기능사",
+        "type": "text",
+        "value": "SQLD · 정보처리기능사"
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "photoKey": "f4",
+    "nameKey": "f6",
+    "factKeys": {
+      "학적": "f7",
+      "기수": "f8",
+      "소속": "f9",
+      "이메일": "f10",
+      "GitHub": "f11",
+      "기술 스택": "f12",
+      "관심 분야": "f13"
+    }
+  },
+  "member-lee-taegyu.html": {
+    "title": "이태규",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "f3",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "f4",
+        "label": "이태규 프로필 사진",
+        "type": "image",
+        "value": "assets/members/lee-taegyu.png"
+      },
+      {
+        "key": "f5",
+        "label": "재학생",
+        "type": "text",
+        "value": "재학생"
+      },
+      {
+        "key": "f6",
+        "label": "이태규",
+        "type": "text",
+        "value": "이태규"
+      },
+      {
+        "key": "f7",
+        "label": "학적 · 컴퓨터공학과 4학년 · 2027년 2월 졸업 예정",
+        "type": "text",
+        "value": "컴퓨터공학과 4학년 · 2027년 2월 졸업 예정"
+      },
+      {
+        "key": "f8",
+        "label": "기수 · 1기",
+        "type": "text",
+        "value": "1기"
+      },
+      {
+        "key": "f9",
+        "label": "소속 · 대전대학교 컴퓨터공학과",
+        "type": "text",
+        "value": "대전대학교 컴퓨터공학과"
+      },
+      {
+        "key": "f10",
+        "label": "이메일 · ltk5269@naver.com",
+        "type": "text",
+        "value": "ltk5269@naver.com"
+      },
+      {
+        "key": "f10-href",
+        "label": "이메일 · ltk5269@naver.com 링크",
+        "type": "link",
+        "value": "mailto:ltk5269@naver.com"
+      },
+      {
+        "key": "f11",
+        "label": "GitHub · —",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f12",
+        "label": "기술 스택 · Python · C# · C++ · Kotlin · PyTorc",
+        "type": "text",
+        "value": "Python · C# · C++ · Kotlin · PyTorch · Whisper · YOLO · Transformers · Ollama"
+      },
+      {
+        "key": "f13",
+        "label": "관심 분야 · 인간–AI 상호작용(Human-AI Interaction) · ",
+        "type": "text",
+        "value": "인간–AI 상호작용(Human-AI Interaction) · 능동형 AI 컴패니언 시스템 · 멀티모달 AI 에이전트 · 가상 에이전트 상호작용"
+      },
+      {
+        "key": "f14",
+        "label": "EXPERIENCE",
+        "type": "text",
+        "value": "EXPERIENCE"
+      },
+      {
+        "key": "f15",
+        "label": "경력·활동",
+        "type": "text",
+        "value": "경력·활동"
+      },
+      {
+        "key": "f16",
+        "label": "2026",
+        "type": "text",
+        "value": "2026"
+      },
+      {
+        "key": "f17",
+        "label": "성격 기반 능동형 AI 컴패니언 시스템 연구·개발",
+        "type": "text",
+        "value": "성격 기반 능동형 AI 컴패니언 시스템 연구·개발"
+      },
+      {
+        "key": "f18",
+        "label": "담당 역할 · 시스템 설계·구현 및 관련 논문 제1저자",
+        "type": "text",
+        "value": "시스템 설계·구현 및 관련 논문 제1저자"
+      },
+      {
+        "key": "f19",
+        "label": "주요 내용·성과 · 사용자 입력, 맥락 분석, 페르소나·기억·감정 상태 관리, 로컬",
+        "type": "text",
+        "value": "사용자 입력, 맥락 분석, 페르소나·기억·감정 상태 관리, 로컬 LLM 응답 생성, TTS 및 가상 캐릭터 제어를 연결한 통합 시스템 구현. 캐릭터 정체성과 대화 연속성을 유지하는 모듈 및 사용자 입력에만 의존하지 않는 자율 대화 메커니즘 개발. 관련 논문 「A Study on a Personality-Based Persona Model for Proactive Interaction in AI Companions」을 2026년 한국통신학회(KICS) 학술대회에 발표."
+      },
+      {
+        "key": "f20",
+        "label": "2025 - 2026",
+        "type": "text",
+        "value": "2025 - 2026"
+      },
+      {
+        "key": "f21",
+        "label": "AI 기반 보이스피싱 예방 시스템 — 캡스톤디자인 프로젝트",
+        "type": "text",
+        "value": "AI 기반 보이스피싱 예방 시스템 — 캡스톤디자인 프로젝트"
+      },
+      {
+        "key": "f22",
+        "label": "담당 역할 · 실시간 탐지 시스템 설계·구현 및 위험도 평가 모듈 개발",
+        "type": "text",
+        "value": "실시간 탐지 시스템 설계·구현 및 위험도 평가 모듈 개발"
+      },
+      {
+        "key": "f23",
+        "label": "주요 내용·성과 · 마이크 음성 입력, Whisper 음성 인식, 대화 맥락 축적,",
+        "type": "text",
+        "value": "마이크 음성 입력, Whisper 음성 인식, 대화 맥락 축적, 키워드 탐지, LLaMA 위험 분석, 음향 특징 추출 및 실시간 경고를 연결한 탐지 시스템 구현. 음성·대화 맥락·의심 키워드·음향 특징을 종합하는 위험도 평가와 스트리밍 음성 분석 기능 개발. 관련 논문 「A Study on the Deep Voice Phishing Prevention System」으로 2026년 한국통신학회(KICS) 우수논문 장려상 수상."
+      },
+      {
+        "key": "f24",
+        "label": "COSS 바이오헬스케어 분야 창업경진대회",
+        "type": "text",
+        "value": "COSS 바이오헬스케어 분야 창업경진대회"
+      },
+      {
+        "key": "f25",
+        "label": "주요 내용·성과 · 우수상 수상.",
+        "type": "text",
+        "value": "우수상 수상."
+      },
+      {
+        "key": "f26",
+        "label": "대전대학교 캡스톤디자인 경진대회",
+        "type": "text",
+        "value": "대전대학교 캡스톤디자인 경진대회"
+      },
+      {
+        "key": "f27",
+        "label": "주요 내용·성과 · 최우수상 수상.",
+        "type": "text",
+        "value": "최우수상 수상."
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "photoKey": "f4",
+    "nameKey": "f6",
+    "factKeys": {
+      "학적": "f7",
+      "기수": "f8",
+      "소속": "f9",
+      "이메일": "f10",
+      "GitHub": "f11",
+      "기술 스택": "f12",
+      "관심 분야": "f13"
+    }
+  },
+  "member-yoon-jongmin.html": {
+    "title": "윤종민",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "f3",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "f4",
+        "label": "윤종민 프로필 사진",
+        "type": "image",
+        "value": "assets/members/yoon-jongmin.png"
+      },
+      {
+        "key": "f5",
+        "label": "재학생",
+        "type": "text",
+        "value": "재학생"
+      },
+      {
+        "key": "f6",
+        "label": "윤종민",
+        "type": "text",
+        "value": "윤종민"
+      },
+      {
+        "key": "f7",
+        "label": "학적 · 컴퓨터공학과 3학년",
+        "type": "text",
+        "value": "컴퓨터공학과 3학년"
+      },
+      {
+        "key": "f8",
+        "label": "기수 · 1기",
+        "type": "text",
+        "value": "1기"
+      },
+      {
+        "key": "f9",
+        "label": "소속 · AIDIS Lab",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f10",
+        "label": "이메일 · dbswhdals2022@gmail.com",
+        "type": "text",
+        "value": "dbswhdals2022@gmail.com"
+      },
+      {
+        "key": "f10-href",
+        "label": "이메일 · dbswhdals2022@gmail.com 링크",
+        "type": "link",
+        "value": "mailto:dbswhdals2022@gmail.com"
+      },
+      {
+        "key": "f11",
+        "label": "GitHub · Dellmonte22 ↗",
+        "type": "text",
+        "value": "Dellmonte22 ↗"
+      },
+      {
+        "key": "f11-href",
+        "label": "GitHub · Dellmonte22 ↗ 링크",
+        "type": "link",
+        "value": "https://github.com/Dellmonte22"
+      },
+      {
+        "key": "f12",
+        "label": "기술 스택 · Java · C · C++",
+        "type": "text",
+        "value": "Java · C · C++"
+      },
+      {
+        "key": "f13",
+        "label": "관심 분야 · 백엔드 개발 · 서버 시스템 개발 · AI 활용 개발 · 임베디",
+        "type": "text",
+        "value": "백엔드 개발 · 서버 시스템 개발 · AI 활용 개발 · 임베디드 시스템 개발 · 운영체제(OS)"
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "photoKey": "f4",
+    "nameKey": "f6",
+    "factKeys": {
+      "학적": "f7",
+      "기수": "f8",
+      "소속": "f9",
+      "이메일": "f10",
+      "GitHub": "f11",
+      "기술 스택": "f12",
+      "관심 분야": "f13"
+    }
+  },
+  "member-yu-nagyeong.html": {
+    "title": "유나경",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "f3",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "f4",
+        "label": "유나경 프로필 사진",
+        "type": "image",
+        "value": "assets/members/yu-nagyeong.png"
+      },
+      {
+        "key": "f5",
+        "label": "재학생",
+        "type": "text",
+        "value": "재학생"
+      },
+      {
+        "key": "f6",
+        "label": "유나경",
+        "type": "text",
+        "value": "유나경"
+      },
+      {
+        "key": "f7",
+        "label": "학적 · 컴퓨터공학과 3학년",
+        "type": "text",
+        "value": "컴퓨터공학과 3학년"
+      },
+      {
+        "key": "f8",
+        "label": "기수 · 1기",
+        "type": "text",
+        "value": "1기"
+      },
+      {
+        "key": "f9",
+        "label": "소속 · AIDIS Lab",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f10",
+        "label": "이메일 · thy5046@gmail.com",
+        "type": "text",
+        "value": "thy5046@gmail.com"
+      },
+      {
+        "key": "f10-href",
+        "label": "이메일 · thy5046@gmail.com 링크",
+        "type": "link",
+        "value": "mailto:thy5046@gmail.com"
+      },
+      {
+        "key": "f11",
+        "label": "GitHub · unk0303 ↗",
+        "type": "text",
+        "value": "unk0303 ↗"
+      },
+      {
+        "key": "f11-href",
+        "label": "GitHub · unk0303 ↗ 링크",
+        "type": "link",
+        "value": "https://github.com/unk0303"
+      },
+      {
+        "key": "f12",
+        "label": "기술 스택 · Java · Spring Boot · Python · C",
+        "type": "text",
+        "value": "Java · Spring Boot · Python · C"
+      },
+      {
+        "key": "f13",
+        "label": "관심 분야 · 백엔드",
+        "type": "text",
+        "value": "백엔드"
+      },
+      {
+        "key": "f14",
+        "label": "EXPERIENCE",
+        "type": "text",
+        "value": "EXPERIENCE"
+      },
+      {
+        "key": "f15",
+        "label": "경력·활동",
+        "type": "text",
+        "value": "경력·활동"
+      },
+      {
+        "key": "f16",
+        "label": "2025 - 현재",
+        "type": "text",
+        "value": "2025 - 현재"
+      },
+      {
+        "key": "f17",
+        "label": "GDGoC DJU [일영]",
+        "type": "text",
+        "value": "GDGoC DJU [일영]"
+      },
+      {
+        "key": "f18",
+        "label": "담당 역할 · Backend",
+        "type": "text",
+        "value": "Backend"
+      },
+      {
+        "key": "f19",
+        "label": "주요 내용·성과 · 2025년 Java, Spring Boot, JPA 기반 백엔드",
+        "type": "text",
+        "value": "2025년 Java, Spring Boot, JPA 기반 백엔드 개발 활동 및 오픈 세션 참여. 키워드 매칭 기반 이력서 분석·채용공고 추천 프로젝트에서 채용공고 및 추천 관련 API 구현."
+      },
+      {
+        "key": "f20",
+        "label": "2025",
+        "type": "text",
+        "value": "2025"
+      },
+      {
+        "key": "f21",
+        "label": "2025 오픈소스 개발자대회",
+        "type": "text",
+        "value": "2025 오픈소스 개발자대회"
+      },
+      {
+        "key": "f22",
+        "label": "담당 역할 · Backend",
+        "type": "text",
+        "value": "Backend"
+      },
+      {
+        "key": "f23",
+        "label": "주요 내용·성과 · 불법 쓰레기 투기 문제 해결을 위한 위치 기반 서비스 개발 참여",
+        "type": "text",
+        "value": "불법 쓰레기 투기 문제 해결을 위한 위치 기반 서비스 개발 참여. Spring Boot 기반 커뮤니티 게시판 CRUD 및 Google 로그인 기능 구현. ERD 설계, API 명세 작성 및 Postman을 활용한 API 테스트 수행."
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "photoKey": "f4",
+    "nameKey": "f6",
+    "factKeys": {
+      "학적": "f7",
+      "기수": "f8",
+      "소속": "f9",
+      "이메일": "f10",
+      "GitHub": "f11",
+      "기술 스택": "f12",
+      "관심 분야": "f13"
+    }
+  },
+  "members.html": {
+    "title": "구성원",
+    "kind": "content",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "구성원",
+        "type": "text",
+        "value": "구성원"
+      },
+      {
+        "key": "f3",
+        "label": "OUR PEOPLE",
+        "type": "text",
+        "value": "OUR PEOPLE"
+      },
+      {
+        "key": "f4",
+        "label": "구성원",
+        "type": "text",
+        "value": "구성원"
+      },
+      {
+        "key": "f5",
+        "label": "각자의 관심과 경험을 나누며 함께 연구합니다.",
+        "type": "text",
+        "value": "각자의 관심과 경험을 나누며 함께 연구합니다."
+      },
+      {
+        "key": "f6",
+        "label": "구성원 찾기",
+        "type": "text",
+        "value": "구성원 찾기"
+      },
+      {
+        "key": "f7",
+        "label": "연구실 문의 ↗",
+        "type": "text",
+        "value": "연구실 문의 ↗"
+      },
+      {
+        "key": "f8",
+        "label": "검색 결과가 없습니다.",
+        "type": "text",
+        "value": "검색 결과가 없습니다."
+      },
+      {
+        "key": "f9",
+        "label": "다른 이름이나 기술로 검색해 보세요.",
+        "type": "text",
+        "value": "다른 이름이나 기술로 검색해 보세요."
+      },
+      {
+        "key": "f10",
+        "label": "CURRENT MEMBERS",
+        "type": "text",
+        "value": "CURRENT MEMBERS"
+      },
+      {
+        "key": "f11",
+        "label": "재학생",
+        "type": "text",
+        "value": "재학생"
+      },
+      {
+        "key": "f12",
+        "label": "ALUMNI",
+        "type": "text",
+        "value": "ALUMNI"
+      },
+      {
+        "key": "f13",
+        "label": "졸업생",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f14",
+        "label": "연구실과 함께하고 싶으신가요?",
+        "type": "text",
+        "value": "연구실과 함께하고 싶으신가요?"
+      },
+      {
+        "key": "f15",
+        "label": "연구실 방문이나 연구 참여에 관한 문의는 랩장 또는 지도교수에게 연락해 주세요.",
+        "type": "text",
+        "value": "연구실 방문이나 연구 참여에 관한 문의는 랩장 또는 지도교수에게 연락해 주세요."
+      },
+      {
+        "key": "f16",
+        "label": "문의하기 ↗",
+        "type": "text",
+        "value": "문의하기 ↗"
+      }
+    ]
+  },
+  "professor.html": {
+    "title": "지도교수",
+    "kind": "content",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "PROFESSOR",
+        "type": "text",
+        "value": "PROFESSOR"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "지도교수",
+        "type": "text",
+        "value": "지도교수"
+      },
+      {
+        "key": "f3",
+        "label": "PROFESSOR",
+        "type": "text",
+        "value": "PROFESSOR"
+      },
+      {
+        "key": "f4",
+        "label": "지도교수",
+        "type": "text",
+        "value": "지도교수"
+      },
+      {
+        "key": "f5",
+        "label": "박건우 교수",
+        "type": "image",
+        "value": "assets/professor-park-gunwoo.png"
+      },
+      {
+        "key": "f6",
+        "label": "PARK GUNWOO",
+        "type": "text",
+        "value": "PARK GUNWOO"
+      },
+      {
+        "key": "f7",
+        "label": "박건우 교수",
+        "type": "text",
+        "value": "박건우 교수"
+      },
+      {
+        "key": "f8",
+        "label": "직위 · 대전대학교 컴퓨터공학과 전임교수",
+        "type": "text",
+        "value": "대전대학교 컴퓨터공학과 전임교수"
+      },
+      {
+        "key": "f9",
+        "label": "연구 분야 · MANET, Routing Protocol, 소셜 빅데이터 분석",
+        "type": "text",
+        "value": "MANET, Routing Protocol, 소셜 빅데이터 분석, SNA, AI"
+      },
+      {
+        "key": "f10",
+        "label": "전공 · 국방정보체계, 데이터베이스·멀티미디어, 무선네트워크·보안",
+        "type": "text",
+        "value": "국방정보체계, 데이터베이스·멀티미디어, 무선네트워크·보안"
+      },
+      {
+        "key": "f11",
+        "label": "연구실 · 대전대학교 융합과학관 3층 24323호",
+        "type": "text",
+        "value": "대전대학교 융합과학관 3층 24323호"
+      },
+      {
+        "key": "f12",
+        "label": "이메일 · pgw4050@dju.kr",
+        "type": "text",
+        "value": "pgw4050@dju.kr"
+      },
+      {
+        "key": "f12-href",
+        "label": "이메일 · pgw4050@dju.kr 링크",
+        "type": "link",
+        "value": "mailto:pgw4050@dju.kr"
+      },
+      {
+        "key": "f13",
+        "label": "유선전화 · 042-280-2024",
+        "type": "text",
+        "value": "042-280-2024"
+      },
+      {
+        "key": "f13-href",
+        "label": "유선전화 · 042-280-2024 링크",
+        "type": "link",
+        "value": "tel:0422802024"
+      },
+      {
+        "key": "f14",
+        "label": "EDUCATION",
+        "type": "text",
+        "value": "EDUCATION"
+      },
+      {
+        "key": "f15",
+        "label": "학력",
+        "type": "text",
+        "value": "학력"
+      },
+      {
+        "key": "f16",
+        "label": "국방대학교 국방과학학과 박사",
+        "type": "text",
+        "value": "국방대학교 국방과학학과 박사"
+      },
+      {
+        "key": "f17",
+        "label": "Lehigh University 방문연구",
+        "type": "text",
+        "value": "Lehigh University 방문연구"
+      },
+      {
+        "key": "f18",
+        "label": "연세대학교 컴퓨터과학과 석사",
+        "type": "text",
+        "value": "연세대학교 컴퓨터과학과 석사"
+      },
+      {
+        "key": "f19",
+        "label": "충남대학교 컴퓨터과학과 학사",
+        "type": "text",
+        "value": "충남대학교 컴퓨터과학과 학사"
+      },
+      {
+        "key": "f20",
+        "label": "EXPERIENCE",
+        "type": "text",
+        "value": "EXPERIENCE"
+      },
+      {
+        "key": "f21",
+        "label": "경력",
+        "type": "text",
+        "value": "경력"
+      },
+      {
+        "key": "f22",
+        "label": "AI/SW연구혁신센터장",
+        "type": "text",
+        "value": "AI/SW연구혁신센터장"
+      },
+      {
+        "key": "f23",
+        "label": "방위사업청 방위사업교육원 겸임교수",
+        "type": "text",
+        "value": "방위사업청 방위사업교육원 겸임교수"
+      },
+      {
+        "key": "f24",
+        "label": "육군 교육사령부 전문위원",
+        "type": "text",
+        "value": "육군 교육사령부 전문위원"
+      },
+      {
+        "key": "f25",
+        "label": "대전대학교 대학교육혁신원 e-Edu지원센터장",
+        "type": "text",
+        "value": "대전대학교 대학교육혁신원 e-Edu지원센터장"
+      },
+      {
+        "key": "f26",
+        "label": "대전대학교 컴퓨터공학과 교수",
+        "type": "text",
+        "value": "대전대학교 컴퓨터공학과 교수"
+      },
+      {
+        "key": "f27",
+        "label": "대전대학교 군사학과 JA 교수",
+        "type": "text",
+        "value": "대전대학교 군사학과 JA 교수"
+      },
+      {
+        "key": "f28",
+        "label": "한국군사문제연구원 군사연구위원",
+        "type": "text",
+        "value": "한국군사문제연구원 군사연구위원"
+      },
+      {
+        "key": "f29",
+        "label": "국방대학교 국방과학학과 객원교수",
+        "type": "text",
+        "value": "국방대학교 국방과학학과 객원교수"
+      },
+      {
+        "key": "f30",
+        "label": "국방대학교 국방과학학과 교수",
+        "type": "text",
+        "value": "국방대학교 국방과학학과 교수"
+      },
+      {
+        "key": "f31",
+        "label": "군수사령부 정보화기획처 정보화계획과장",
+        "type": "text",
+        "value": "군수사령부 정보화기획처 정보화계획과장"
+      },
+      {
+        "key": "f32",
+        "label": "정보체계관리단 개발과 신기술 팀장",
+        "type": "text",
+        "value": "정보체계관리단 개발과 신기술 팀장"
+      },
+      {
+        "key": "f33",
+        "label": "정보체계관리단 개발과 SW 개발계획 / 관리장교",
+        "type": "text",
+        "value": "정보체계관리단 개발과 SW 개발계획 / 관리장교"
+      },
+      {
+        "key": "f34",
+        "label": "육군 미래혁신연구센터 객원연구원",
+        "type": "text",
+        "value": "육군 미래혁신연구센터 객원연구원"
+      },
+      {
+        "key": "f35",
+        "label": "정보체계관리단 전산체계운영지원과 전산체계운영계획장교",
+        "type": "text",
+        "value": "정보체계관리단 전산체계운영지원과 전산체계운영계획장교"
+      },
+      {
+        "key": "f36",
+        "label": "3야전군 13정보통신단 63통신운용대대장",
+        "type": "text",
+        "value": "3야전군 13정보통신단 63통신운용대대장"
+      },
+      {
+        "key": "f37",
+        "label": "101정보통신단 711통신대대 노드대대장",
+        "type": "text",
+        "value": "101정보통신단 711통신대대 노드대대장"
+      },
+      {
+        "key": "f38",
+        "label": "정보체계관리단 사업집행과 집행계획장교 / 정보통신망사업담당장교",
+        "type": "text",
+        "value": "정보체계관리단 사업집행과 집행계획장교 / 정보통신망사업담당장교"
+      },
+      {
+        "key": "f39",
+        "label": "육군 정보통신 / 전산장교",
+        "type": "text",
+        "value": "육군 정보통신 / 전산장교"
+      },
+      {
+        "key": "f40",
+        "label": "RESEARCH INTERESTS",
+        "type": "text",
+        "value": "RESEARCH INTERESTS"
+      },
+      {
+        "key": "f41",
+        "label": "주요 연구 분야",
+        "type": "text",
+        "value": "주요 연구 분야"
+      },
+      {
+        "key": "f42",
+        "label": "MANET · Routing Protocol",
+        "type": "text",
+        "value": "MANET · Routing Protocol"
+      },
+      {
+        "key": "f43",
+        "label": "소셜 빅데이터 분석 · SNA",
+        "type": "text",
+        "value": "소셜 빅데이터 분석 · SNA"
+      },
+      {
+        "key": "f44",
+        "label": "AI",
+        "type": "text",
+        "value": "AI"
+      },
+      {
+        "key": "f45",
+        "label": "연구 분야 상세보기 ↗",
+        "type": "text",
+        "value": "연구 분야 상세보기 ↗"
+      },
+      {
+        "key": "f46",
+        "label": "RESEARCH & DEVELOPMENT",
+        "type": "text",
+        "value": "RESEARCH & DEVELOPMENT"
+      },
+      {
+        "key": "f47",
+        "label": "연구과제",
+        "type": "text",
+        "value": "연구과제"
+      },
+      {
+        "key": "f48",
+        "label": "진행 중인 연구",
+        "type": "text",
+        "value": "진행 중인 연구"
+      },
+      {
+        "key": "f49",
+        "label": "진행 중",
+        "type": "text",
+        "value": "진행 중"
+      },
+      {
+        "key": "f50",
+        "label": "개방형 공공클라우드 플랫폼 오픈랩 운영",
+        "type": "text",
+        "value": "개방형 공공클라우드 플랫폼 오픈랩 운영"
+      },
+      {
+        "key": "f51",
+        "label": "과학기술정보통신부 · 한국지능정보사회진흥원",
+        "type": "text",
+        "value": "과학기술정보통신부 · 한국지능정보사회진흥원"
+      },
+      {
+        "key": "f52",
+        "label": "2023.03 - 현재",
+        "type": "text",
+        "value": "2023.03 - 현재"
+      },
+      {
+        "key": "f53",
+        "label": "진행 중",
+        "type": "text",
+        "value": "진행 중"
+      },
+      {
+        "key": "f54",
+        "label": "인공지능 영상 신뢰성 평가 표준화 연구",
+        "type": "text",
+        "value": "인공지능 영상 신뢰성 평가 표준화 연구"
+      },
+      {
+        "key": "f55",
+        "label": "국방대학교 주관 국방 R&D 「인공지능 체계 신뢰성 시험 표준화 연구」의 영상 AI 분야 연구입니다.",
+        "type": "text",
+        "value": "국방대학교 주관 국방 R&D 「인공지능 체계 신뢰성 시험 표준화 연구」의 영상 AI 분야 연구입니다."
+      },
+      {
+        "key": "f56",
+        "label": "고려대학교는 자율주행 분야를, 대전대학교는 영상 AI 분야를 담당합니다. 대전대학교는 인공지능 영상의 신뢰성 평가 표",
+        "type": "text",
+        "value": "고려대학교는 자율주행 분야를, 대전대학교는 영상 AI 분야를 담당합니다. 대전대학교는 인공지능 영상의 신뢰성 평가 표준화를 연구합니다."
+      },
+      {
+        "key": "f57",
+        "label": "2025.09 - 현재",
+        "type": "text",
+        "value": "2025.09 - 현재"
+      },
+      {
+        "key": "f58",
+        "label": "완료된 연구",
+        "type": "text",
+        "value": "완료된 연구"
+      },
+      {
+        "key": "f59",
+        "label": "완료",
+        "type": "text",
+        "value": "완료"
+      },
+      {
+        "key": "f60",
+        "label": "지상전력시험평가과 정책연구 용역",
+        "type": "text",
+        "value": "지상전력시험평가과 정책연구 용역"
+      },
+      {
+        "key": "f61",
+        "label": "합동참모본부",
+        "type": "text",
+        "value": "합동참모본부"
+      },
+      {
+        "key": "f62",
+        "label": "2023.08 - 2023.12",
+        "type": "text",
+        "value": "2023.08 - 2023.12"
+      },
+      {
+        "key": "f63",
+        "label": "완료",
+        "type": "text",
+        "value": "완료"
+      },
+      {
+        "key": "f64",
+        "label": "군위성통신체계-Ⅲ 운용요구서 초안 연구",
+        "type": "text",
+        "value": "군위성통신체계-Ⅲ 운용요구서 초안 연구"
+      },
+      {
+        "key": "f65",
+        "label": "국방과학연구소",
+        "type": "text",
+        "value": "국방과학연구소"
+      },
+      {
+        "key": "f66",
+        "label": "2023.06 - 2023.12",
+        "type": "text",
+        "value": "2023.06 - 2023.12"
+      },
+      {
+        "key": "f67",
+        "label": "완료",
+        "type": "text",
+        "value": "완료"
+      },
+      {
+        "key": "f68",
+        "label": "저궤도 소형통신위성(群) 중심의 통합 네트워크 연구",
+        "type": "text",
+        "value": "저궤도 소형통신위성(群) 중심의 통합 네트워크 연구"
+      },
+      {
+        "key": "f69",
+        "label": "국방과학연구소",
+        "type": "text",
+        "value": "국방과학연구소"
+      },
+      {
+        "key": "f70",
+        "label": "2022.04 - 2023.03",
+        "type": "text",
+        "value": "2022.04 - 2023.03"
+      },
+      {
+        "key": "f71",
+        "label": "완료",
+        "type": "text",
+        "value": "완료"
+      },
+      {
+        "key": "f72",
+        "label": "인공지능 무기체계 시험평가 기준, 절차, 방법 연구",
+        "type": "text",
+        "value": "인공지능 무기체계 시험평가 기준, 절차, 방법 연구"
+      },
+      {
+        "key": "f73",
+        "label": "합동참모본부",
+        "type": "text",
+        "value": "합동참모본부"
+      },
+      {
+        "key": "f74",
+        "label": "2022.07 - 2022.11",
+        "type": "text",
+        "value": "2022.07 - 2022.11"
+      },
+      {
+        "key": "f75",
+        "label": "완료",
+        "type": "text",
+        "value": "완료"
+      },
+      {
+        "key": "f76",
+        "label": "22-파라메트릭 기반 함정 수명주기비용 추정방법 연구",
+        "type": "text",
+        "value": "22-파라메트릭 기반 함정 수명주기비용 추정방법 연구"
+      },
+      {
+        "key": "f77",
+        "label": "해군본부",
+        "type": "text",
+        "value": "해군본부"
+      },
+      {
+        "key": "f78",
+        "label": "2022.05 - 2022.11",
+        "type": "text",
+        "value": "2022.05 - 2022.11"
+      },
+      {
+        "key": "f79",
+        "label": "SELECTED PUBLICATIONS",
+        "type": "text",
+        "value": "SELECTED PUBLICATIONS"
+      },
+      {
+        "key": "f80",
+        "label": "대표 논문",
+        "type": "text",
+        "value": "대표 논문"
+      },
+      {
+        "key": "extra83",
+        "label": "Optimizing Energy Efficiency With Enhanced Adaptive Chain Protoco",
+        "type": "text",
+        "value": "Optimizing Energy Efficiency With Enhanced Adaptive Chain Protocols in Wireless Sensor Networks"
+      },
+      {
+        "key": "extra84",
+        "label": "CredibleExpertRank: Leveraging Social Network Analysis and Opinio",
+        "type": "text",
+        "value": "CredibleExpertRank: Leveraging Social Network Analysis and Opinion Mining to Facilitate Reliable Information Retrieval on Knowledge-Sharing Sites"
+      },
+      {
+        "key": "extra85",
+        "label": "Topic-driven SocialRank: Personalized search result ranking by id",
+        "type": "text",
+        "value": "Topic-driven SocialRank: Personalized search result ranking by identifying similar, credible users in a social network"
+      },
+      {
+        "key": "extra86",
+        "label": "드론 식별 시스템을 위한 합성곱 신경망 기반 이미지 분류 모델 성능 비교",
+        "type": "text",
+        "value": "드론 식별 시스템을 위한 합성곱 신경망 기반 이미지 분류 모델 성능 비교"
+      },
+      {
+        "key": "extra87",
+        "label": "초거대 인공지능의 국방 분야 적용방안: 새로운 영역 발굴 및 전투시나리오 모델링을 중심으로",
+        "type": "text",
+        "value": "초거대 인공지능의 국방 분야 적용방안: 새로운 영역 발굴 및 전투시나리오 모델링을 중심으로"
+      },
+      {
+        "key": "extra88",
+        "label": "시뮬레이션을 이용한 저궤도위성통신 정보유통능력 분석",
+        "type": "text",
+        "value": "시뮬레이션을 이용한 저궤도위성통신 정보유통능력 분석"
+      }
+    ]
+  },
+  "research.html": {
+    "title": "연구 분야",
+    "kind": "content",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "RESEARCH",
+        "type": "text",
+        "value": "RESEARCH"
+      },
+      {
+        "key": "f1",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "f2",
+        "label": "연구 분야",
+        "type": "text",
+        "value": "연구 분야"
+      },
+      {
+        "key": "f3",
+        "label": "연구 분야",
+        "type": "text",
+        "value": "연구 분야"
+      },
+      {
+        "key": "f4",
+        "label": "데이터 분석 및 인사이트 도출, 인공지능 모델 연구, AI 기반 소셜 플랫폼 개발을 중심으로 연구합니다.",
+        "type": "text",
+        "value": "데이터 분석 및 인사이트 도출, 인공지능 모델 연구, AI 기반 소셜 플랫폼 개발을 중심으로 연구합니다."
+      },
+      {
+        "key": "f5",
+        "label": "01",
+        "type": "text",
+        "value": "01"
+      },
+      {
+        "key": "f6",
+        "label": "SOCIAL DATA & INSIGHTS",
+        "type": "text",
+        "value": "SOCIAL DATA & INSIGHTS"
+      },
+      {
+        "key": "f7",
+        "label": "02",
+        "type": "text",
+        "value": "02"
+      },
+      {
+        "key": "f8",
+        "label": "ARTIFICIAL INTELLIGENCE",
+        "type": "text",
+        "value": "ARTIFICIAL INTELLIGENCE"
+      },
+      {
+        "key": "f9",
+        "label": "인공지능 모델 연구",
+        "type": "text",
+        "value": "인공지능 모델 연구"
+      },
+      {
+        "key": "f10",
+        "label": "03",
+        "type": "text",
+        "value": "03"
+      },
+      {
+        "key": "f11",
+        "label": "SOCIAL PLATFORMS",
+        "type": "text",
+        "value": "SOCIAL PLATFORMS"
+      },
+      {
+        "key": "f12",
+        "label": "관계에서 패턴을, 패턴에서 인사이트를",
+        "type": "text",
+        "value": "관계에서 패턴을, 패턴에서 인사이트를"
+      },
+      {
+        "key": "f13",
+        "label": "소셜 빅데이터와 사회연결망 분석(SNA)을 바탕으로 사용자 상호작용과 정보 확산을 이해합니다. 빅데이터 분석, 시각화",
+        "type": "text",
+        "value": "소셜 빅데이터와 사회연결망 분석(SNA)을 바탕으로 사용자 상호작용과 정보 확산을 이해합니다. 빅데이터 분석, 시각화, 패턴·트렌드 탐색을 하나의 흐름으로 연결하여 데이터 기반 판단을 지원합니다."
+      },
+      {
+        "key": "f14",
+        "label": "예측과 판단을 지원하는 AI",
+        "type": "text",
+        "value": "예측과 판단을 지원하는 AI"
+      },
+      {
+        "key": "f15",
+        "label": "예측과 분류, 영상 분석을 위한 인공지능 모델을 연구합니다. 실제 적용 환경에서 모델이 얼마나 신뢰할 수 있는지 평가",
+        "type": "text",
+        "value": "예측과 분류, 영상 분석을 위한 인공지능 모델을 연구합니다. 실제 적용 환경에서 모델이 얼마나 신뢰할 수 있는지 평가하고 의사결정 지원 기술로 확장합니다."
+      },
+      {
+        "key": "f16",
+        "label": "연구를 사용자 경험으로 연결",
+        "type": "text",
+        "value": "연구를 사용자 경험으로 연결"
+      },
+      {
+        "key": "f17",
+        "label": "AI 기반 서비스와 사용자 참여 기능을 구현합니다. 클라우드 환경에서 데이터를 처리하고, 분석 결과가 실제 사용자가 ",
+        "type": "text",
+        "value": "AI 기반 서비스와 사용자 참여 기능을 구현합니다. 클라우드 환경에서 데이터를 처리하고, 분석 결과가 실제 사용자가 활용할 수 있는 플랫폼으로 이어지도록 개발합니다."
+      },
+      {
+        "key": "extra18",
+        "label": "데이터 분석 및",
+        "type": "text",
+        "value": "데이터 분석 및"
+      },
+      {
+        "key": "extra19",
+        "label": "인사이트 도출",
+        "type": "text",
+        "value": "인사이트 도출"
+      },
+      {
+        "key": "extra20",
+        "label": "AI 기반",
+        "type": "text",
+        "value": "AI 기반"
+      },
+      {
+        "key": "extra21",
+        "label": "소셜 플랫폼 개발",
+        "type": "text",
+        "value": "소셜 플랫폼 개발"
+      }
+    ]
+  },
+  "member-kim-jinwon.html": {
+    "title": "김진원",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "프로필 사진",
+        "type": "image",
+        "value": "assets/member-placeholder-male.svg"
+      },
+      {
+        "key": "f1",
+        "label": "구분",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f2",
+        "label": "이름",
+        "type": "text",
+        "value": "김진원"
+      },
+      {
+        "key": "f3",
+        "label": "학적",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f4",
+        "label": "기수",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f5",
+        "label": "소속",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f6",
+        "label": "이메일",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f7",
+        "label": "GitHub",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f8",
+        "label": "기술 스택",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f9",
+        "label": "관심 분야",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "extra10",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "extra11",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "extra12",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "extra13",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "factKeys": {
+      "학적": "f3",
+      "기수": "f4",
+      "소속": "f5",
+      "이메일": "f6",
+      "GitHub": "f7",
+      "기술 스택": "f8",
+      "관심 분야": "f9"
+    },
+    "photoKey": "f0",
+    "nameKey": "f2"
+  },
+  "member-song-daeyoung.html": {
+    "title": "송대영",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "프로필 사진",
+        "type": "image",
+        "value": "assets/member-placeholder-male.svg"
+      },
+      {
+        "key": "f1",
+        "label": "구분",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f2",
+        "label": "이름",
+        "type": "text",
+        "value": "송대영"
+      },
+      {
+        "key": "f3",
+        "label": "학적",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f4",
+        "label": "기수",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f5",
+        "label": "소속",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f6",
+        "label": "이메일",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f7",
+        "label": "GitHub",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f8",
+        "label": "기술 스택",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f9",
+        "label": "관심 분야",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "extra10",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "extra11",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "extra12",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "extra13",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "factKeys": {
+      "학적": "f3",
+      "기수": "f4",
+      "소속": "f5",
+      "이메일": "f6",
+      "GitHub": "f7",
+      "기술 스택": "f8",
+      "관심 분야": "f9"
+    },
+    "photoKey": "f0",
+    "nameKey": "f2"
+  },
+  "member-park-seonga.html": {
+    "title": "박성아",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "프로필 사진",
+        "type": "image",
+        "value": "assets/member-placeholder-female.svg"
+      },
+      {
+        "key": "f1",
+        "label": "구분",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f2",
+        "label": "이름",
+        "type": "text",
+        "value": "박성아"
+      },
+      {
+        "key": "f3",
+        "label": "학적",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f4",
+        "label": "기수",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f5",
+        "label": "소속",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f6",
+        "label": "이메일",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f7",
+        "label": "GitHub",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f8",
+        "label": "기술 스택",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f9",
+        "label": "관심 분야",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "extra10",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "extra11",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "extra12",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "extra13",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "factKeys": {
+      "학적": "f3",
+      "기수": "f4",
+      "소속": "f5",
+      "이메일": "f6",
+      "GitHub": "f7",
+      "기술 스택": "f8",
+      "관심 분야": "f9"
+    },
+    "photoKey": "f0",
+    "nameKey": "f2"
+  },
+  "member-park-siyoung.html": {
+    "title": "박시영",
+    "kind": "member",
+    "fields": [
+      {
+        "key": "f0",
+        "label": "프로필 사진",
+        "type": "image",
+        "value": "assets/member-placeholder-male.svg"
+      },
+      {
+        "key": "f1",
+        "label": "구분",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f2",
+        "label": "이름",
+        "type": "text",
+        "value": "박시영"
+      },
+      {
+        "key": "f3",
+        "label": "학적",
+        "type": "text",
+        "value": "졸업생"
+      },
+      {
+        "key": "f4",
+        "label": "기수",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f5",
+        "label": "소속",
+        "type": "text",
+        "value": "AIDIS Lab"
+      },
+      {
+        "key": "f6",
+        "label": "이메일",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f7",
+        "label": "GitHub",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f8",
+        "label": "기술 스택",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "f9",
+        "label": "관심 분야",
+        "type": "text",
+        "value": "—"
+      },
+      {
+        "key": "extra10",
+        "label": "PEOPLE",
+        "type": "text",
+        "value": "PEOPLE"
+      },
+      {
+        "key": "extra11",
+        "label": "AIDIS LAB",
+        "type": "text",
+        "value": "AIDIS LAB"
+      },
+      {
+        "key": "extra12",
+        "label": "구성원 상세",
+        "type": "text",
+        "value": "구성원 상세"
+      },
+      {
+        "key": "extra13",
+        "label": "← 구성원 목록",
+        "type": "text",
+        "value": "← 구성원 목록"
+      },
+      {
+        "key": "bio",
+        "label": "추가 소개 · 경력·활동 (줄바꿈 가능)",
+        "type": "text",
+        "value": "—"
+      }
+    ],
+    "factKeys": {
+      "학적": "f3",
+      "기수": "f4",
+      "소속": "f5",
+      "이메일": "f6",
+      "GitHub": "f7",
+      "기술 스택": "f8",
+      "관심 분야": "f9"
+    },
+    "photoKey": "f0",
+    "nameKey": "f2"
+  }
+}

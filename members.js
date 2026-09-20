@@ -141,3 +141,5 @@ document.querySelectorAll('.member-stack-list, .member-interests-list').forEach(
 window.addEventListener('resize', scheduleTagFit);
 document.fonts.ready.then(scheduleTagFit);
 fitMemberTags();
+
+document.addEventListener('members-updated', () => { memberCards.forEach(item => { item.text = normalizeSearch(item.card.textContent); }); filterMembers(); });
