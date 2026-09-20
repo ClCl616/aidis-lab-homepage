@@ -40,6 +40,7 @@ async function refreshIdentity() {
   $('auth-panel').hidden = Boolean(who.user); $('workspace').hidden = !who.user;
   if (!who.user) { status('로그인하거나 회원가입해 주세요.'); return; }
   $('account-email').textContent = who.user.email;
+  $('display-name').value = who.user.user_metadata?.display_name || '';
   $('account-role').textContent = who.admin ? '관리자' : who.membership?.status === 'approved' ? '구성원' : '프로필 연결 대기';
   document.querySelectorAll('[data-admin]').forEach(n => { n.hidden = !who.admin; });
   options($('requested-page'), 'member');
@@ -183,6 +184,13 @@ document.querySelectorAll('[data-panel]').forEach(b=>b.addEventListener('click',
 addEventListener('hashchange',()=>switchPanel(location.hash.slice(1)));
 $('content-page').addEventListener('change',()=>run(async()=>{const old=$('content-editor').querySelector('form');if(dirtyForms.has(old)&&!await confirmAction('저장하지 않은 내용을 버리고 다른 페이지를 불러올까요?')){ $('content-page').value=old.dataset.page; return; } await contentEditor($('content-page').value,$('content-editor'));dirtyForms.delete(old);}));
 $('reload-requests').addEventListener('click',()=>run(loadRequests));
+$('display-name-form').addEventListener('submit',event=>{event.preventDefault();run(async()=>{
+  const name=$('display-name').value.trim();
+  if([...name].length>40)throw new Error('표시 이름을 40자 이내로 입력해 주세요.');
+  await result(client.auth.updateUser({data:{display_name:name}}));
+  document.dispatchEvent(new Event('account-name-updated'));
+  status('상단에 표시할 이름을 저장했습니다.');
+});});
 $('settings-form').addEventListener('submit',e=>{e.preventDefault();run(async()=>{
   const values=Object.fromEntries(['membership_open','profile_editing','activity_submissions','activities_visible'].map(key=>[key,$(key).checked]));
   const saved=await result(client.from('site_settings').update(values).eq('id',true).eq('updated_at',featureSettings.updated_at).select().maybeSingle());

@@ -245,9 +245,9 @@
       },
       {
         "key": "f6",
-        "label": "관리자 로그인 · 활동 작성",
+        "label": "활동 작성·관리",
         "type": "text",
-        "value": "관리자 로그인 · 활동 작성"
+        "value": "활동 작성·관리"
       },
       {
         "key": "f7",
@@ -626,24 +626,6 @@
         "label": "Notice & News",
         "type": "text",
         "value": "Notice & News"
-      },
-      {
-        "key": "f23",
-        "label": "수상",
-        "type": "text",
-        "value": "수상"
-      },
-      {
-        "key": "f24",
-        "label": "K-PaaS 공모전 수상",
-        "type": "text",
-        "value": "K-PaaS 공모전 수상"
-      },
-      {
-        "key": "f25",
-        "label": "↗",
-        "type": "text",
-        "value": "↗"
       },
       {
         "key": "f26",
@@ -1818,9 +1800,9 @@
       },
       {
         "key": "f7",
-        "label": "학적 · 컴퓨터공학과 4학년 · 2027년 2월 졸업 예정",
+        "label": "학적 · 컴퓨터공학과 4학년",
         "type": "text",
-        "value": "컴퓨터공학과 4학년 · 2027년 2월 졸업 예정"
+        "value": "컴퓨터공학과 4학년"
       },
       {
         "key": "f8",
@@ -3081,9 +3063,9 @@
       },
       {
         "key": "f4",
-        "label": "기수",
+        "label": "기수 · 0기",
         "type": "text",
-        "value": "—"
+        "value": "0기"
       },
       {
         "key": "f5",
@@ -3188,9 +3170,9 @@
       },
       {
         "key": "f4",
-        "label": "기수",
+        "label": "기수 · 0기",
         "type": "text",
-        "value": "—"
+        "value": "0기"
       },
       {
         "key": "f5",
@@ -3295,9 +3277,9 @@
       },
       {
         "key": "f4",
-        "label": "기수",
+        "label": "기수 · 0기",
         "type": "text",
-        "value": "—"
+        "value": "0기"
       },
       {
         "key": "f5",
@@ -3402,9 +3384,9 @@
       },
       {
         "key": "f4",
-        "label": "기수",
+        "label": "기수 · 0기",
         "type": "text",
-        "value": "—"
+        "value": "0기"
       },
       {
         "key": "f5",
