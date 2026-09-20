@@ -11,3 +11,10 @@
 .activity-heading-row .activity-admin-link{margin:0 0 0 auto;white-space:nowrap;flex-shrink:0}
 .mini-news-empty{font-size:13px;color:var(--muted);padding:18px 0}
 @media(max-width:999px){.header-actions .account-link{display:inline-flex;max-width:140px}}
+
+/* Keep the workspace heading, navigation and panels on one left edge. */
+.account-page .page-heading{max-width:none;margin:0 0 24px;padding:0}
+.account-page .workspace-nav{justify-content:flex-start;margin-left:0;margin-right:0}
+.account-page #page-content{scroll-margin-top:110px}
+.account-page #auth-panel .editor-status,.account-page #recovery-panel .editor-status{position:static;margin:0 0 20px;padding:0;color:#426578;font-size:14px}
+.account-page #auth-panel .account-find:disabled{opacity:1;color:#738091;border-color:#dbe3ec;background:#f5f7fa;cursor:not-allowed}

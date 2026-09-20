@@ -7,7 +7,13 @@ let client, definitions, who, featureSettings, signup = false, editing = null, p
 const dirtyForms = new Set();
 const dirty = () => dirtyForms.size > 0;
 const statusNames = { pending: '승인 대기', published: '공개', rejected: '반려', approved: '연결 완료' };
-function status(message) { $('account-status').textContent = message; }
+function status(message) {
+  const notice = $('account-status');
+  const panel = ['recovery-panel', 'auth-panel'].map($).find(node => !node.hidden);
+  const host = panel || $('account-shell-status');
+  if (notice.parentElement !== host) host.prepend(notice);
+  notice.textContent = message;
+}
 function button(text, action, secondary = true) {
   const b = element('button', text, `editor-button${secondary ? ' secondary' : ''}`); b.type = 'button';
   b.addEventListener('click', () => run(action)); return b;
